@@ -263,6 +263,138 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/04/JVM%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="读书笔记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2020/12/04/JVM%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/" itemprop="url">JVM内存结构学习</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2020-12-04T22:08:41+08:00">
+                2020-12-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>JVM 的内存结构的组成有堆（线程共享）、虚拟机栈（线程独享）、本地方法栈（线程独享）、程序计数器（线程独享）、方法栈（线程共享）。</p>
+<h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><p>JDK1.8 之前堆内存分为新生代、老年代（Tenured）和持久代（Perm Gen）。</p>
+<p>JDK1.8 之后堆内存分为新生代、老年代和元空间（本地内存 Metaspace），持久代被废弃了。</p>
+<p>堆分为新生代和老年代，新生代分为伊甸园（Eden）和存活区（Survivor），存活区又分为 From Survivor 和 To Survivor。</p>
+<h2 id="虚拟机栈"><a href="#虚拟机栈" class="headerlink" title="虚拟机栈"></a>虚拟机栈</h2><p>虚拟机栈是线程独享的，当创建一个线程的时候，就会创建一个虚拟机栈。</p>
+<p>每一次的方法调用，都会创建一个栈针。每调用一个方法，就会往栈针内压入一个元素，当方法返回的时候，则会弹出一个元素。</p>
+<p>栈针里面存放的数据有局部变量表、操作数栈、指向运行时常量池的引用、方法返回地址、动态链接。</p>
+<h2 id="本地方法栈"><a href="#本地方法栈" class="headerlink" title="本地方法栈"></a>本地方法栈</h2><p>虚拟机栈管理 Java 方法，本地方法栈管理的是 native 方法。Java 中的 native 方法都是 C 语言实现的。</p>
+<h2 id="程序计数器"><a href="#程序计数器" class="headerlink" title="程序计数器"></a>程序计数器</h2><p>程序计数器用来记录各个线程执行的字节码的地址。比如分支、循环、跳转、异常和线程恢复等操作都需要依赖程序计数器。</p>
+<h2 id="方法区"><a href="#方法区" class="headerlink" title="方法区"></a>方法区</h2><p>JDK8 以后的方法区包含类信息、运行时常量池、字符串常量池和静态变量。方法区的主要作用是用来存放虚拟机加载的类的信息。</p>
+<p><strong>静态常量池</strong>也叫 class 文件常量池，主要存放字面量（例如文本字符串、final 修饰的常量）和符号引用（例如类和接口的全限定名、字段的名称和描述符、方法的名称和描述符）。</p>
+<p><strong>运行时常量池</strong>，当类加载到内存中后，JVM 就会将静态常量池中的内容存放到运行时常量池中；运行时常量池里面存储的主要是编译期间生成的字面量、符号引用等。</p>
+<p><strong>字符串常量池</strong>，可以理解成运行时常量池分出来的一部分，当类加载到内存的时候，字符串会存到字符串常量池中。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://example.com/2020/12/04/Cron%E7%9A%84%E4%BD%BF%E7%94%A8/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -415,7 +547,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
