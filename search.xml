@@ -9,6 +9,87 @@
       </tags>
   </entry>
   <entry>
+    <title>Please make sure you have the correct access rights</title>
+    <url>/2020/12/28/Please-make-sure-you-have-the-correct-access-rights/</url>
+    <content><![CDATA[<p>我想在 <code>gitlab</code> 上创建一个项目，然后我却发现自己没办法将本地的项目 <code>push</code> 到远程仓库。</p>
+<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab1.png"></p>
+<p>我使用的是下图的方法，将已经存在的项目推送到远程仓库。</p>
+<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab2.png"></p>
+<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab3.png"></p>
+<p>这里并不是我的 id_rsa.pub key 没有配置到 <code>gitlab</code> 上。我的其他项目是可以正常 <code>pull</code> 的。所以，我想到了一种曲线救国的方法。</p>
+<p>就是让另一个用户创建项目，然后把项目权限分配给我。这样我就可以将本地仓库的代码 <code>push</code> 到远程仓库了。</p>
+<p>添加权限的界面如下。</p>
+<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab4.png"></p>
+<p>最后显示执行成功。</p>
+<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab5.png"></p>
+]]></content>
+      <tags>
+        <tag>计算机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>HTML笔记（1）</title>
+    <url>/2021/01/01/HTML%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89/</url>
+    <content><![CDATA[<p>（1）</p>
+<p>网页为啥叫HTML</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;html&gt;&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
+
+<p>像这种用标签标记的文字是不会显示在网页上的，每个标签有自己的含义。它们的作用已经超过了普通文本的含义，所以称为超级文本 HyperText。它们全部用标记语言来书写，所以称为超文本标记语言（HyperText Markup Language）也就是 HTML。</p>
+<p>（2）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang&#x3D;&quot;en&quot;&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">    &lt;meta charset&#x3D;&quot;UTF-8&quot;&gt;</span><br><span class="line">    &lt;meta name&#x3D;&quot;viewport&quot; content&#x3D;&quot;width&#x3D;device-width, initial-scale&#x3D;1.0&quot;&gt;</span><br><span class="line">    &lt;title&gt;Document&lt;&#x2F;title&gt;</span><br><span class="line">&lt;&#x2F;head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">    </span><br><span class="line">&lt;&#x2F;body&gt;</span><br><span class="line">&lt;&#x2F;html&gt;</span><br></pre></td></tr></table></figure>
+
+<p><code>&lt;!DOCTYPE html&gt;</code> 这个标签的意思就是告诉浏览器，请使用 HTML5 的标准来解析网页。</p>
+<p><code>&lt;head&gt;&lt;/head&gt;</code> 是网页的头部，包含对网页信息的整体说明。</p>
+<p><code>&lt;body&gt;&lt;/body&gt;</code> 是网页的主题，网页的主要内容都呈现在这里。</p>
+<p>（3）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;h1&gt;这是一段文字&lt;&#x2F;h1&gt;</span><br><span class="line">&lt;h2&gt;这是一段文字&lt;&#x2F;h2&gt;</span><br><span class="line">&lt;h3&gt;这是一段文字&lt;&#x2F;h2&gt;</span><br><span class="line">&lt;h4&gt;这是一段文字&lt;&#x2F;h2&gt;</span><br><span class="line">&lt;h5&gt;这是一段文字&lt;&#x2F;h2&gt;</span><br><span class="line">&lt;h6&gt;这是一段文字&lt;&#x2F;h2&gt;</span><br></pre></td></tr></table></figure>
+
+<p><code>h1</code> 到 <code>h6</code> 都是标题标签，<code>h1</code> 字体最大，<code>h6</code> 字体最小。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;i&gt;2021.1.1&lt;&#x2F;i&gt;</span><br><span class="line">&lt;hr&#x2F;&gt;</span><br><span class="line">&lt;b&gt;加粗文字&lt;&#x2F;b&gt;</span><br><span class="line">&lt;p&gt;这是一段&lt;br&gt;文字&amp;nbsp;&lt;&#x2F;p&gt;</span><br><span class="line">&lt;p&gt;这是一段文字&lt;&#x2F;p&gt;</span><br></pre></td></tr></table></figure>
+
+<p><code>i</code> 代表斜体效果。</p>
+<p><code>hr</code> 代表分割线。</p>
+<p><code>b</code> 代表加粗。</p>
+<p><code>p</code> 是段落标签，并且独占一行。</p>
+<p><code>br</code> 代表换行。</p>
+<p><code>&amp;nbsp;</code> 代表空格，浏览器不会识别源代码中的多个空格，如果有多个空格，也视为一个空格。</p>
+<p>（4）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;www.lvzitao.com&quot;&gt;点我吧&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+
+<p><code>a</code> 是超链接标签，<code>href</code> 属性表示需要跳转的地址，标签内的内容是显示到网页上的文字。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;img src&#x3D;&quot;img&#x2F;logo.jpg&quot; alt&#x3D;&quot;失败&quot; title&#x3D;&quot;提示&quot; width&#x3D;&quot;100px&quot;&#x2F;&gt;</span><br></pre></td></tr></table></figure>
+
+<p><code>img</code> 是图片标签，<code>src</code> 属性填写的是图片的地址，当前图片不能正常加载的时候，网页上会展示 <code>alt</code> 属性的值。鼠标划到图片上会展示 <code>title</code> 属性的值。</p>
+<p>多个图片展示的时候，浏览器默认从左向右平铺，并且多个图片底部对齐展示，当一行宽度不够时进行换行。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;ul&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">	  &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">	  &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ul&gt;</span><br><span class="line"></span><br><span class="line">&lt;ol&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ol&gt;</span><br></pre></td></tr></table></figure>
+
+<p><code>ul</code> 和 <code>li</code> 是无序列表。</p>
+<p><code>ol</code> 和 <code>li</code> 是有序列表。</p>
+<p>（5）</p>
+<p>使用 <code>PS</code> 进行切图。</p>
+<p>鼠标长按切图图标，然后选择切片工具。用鼠标框出需要切的图片。按住 <code>ctrl + shift + alt + s</code> 键，选择 <code>PNG-24</code>，勾选透明度，最后点击存储。</p>
+<p>（6）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;a href&#x3D;&quot;http:&#x2F;&#x2F;www.lvzitao.com&quot; target&#x3D;&quot;_blank&quot;&gt;&lt;&#x2F;a&gt;</span><br></pre></td></tr></table></figure>
+
+<p>使用超链接 <code>a</code> 标签时，如果希望在新窗口打开页面，可以使用 <code>target=&quot;_blank&quot; </code> 属性。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;ul type&#x3D;&quot;disc&quot;&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">	  &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">	  &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ul&gt;</span><br><span class="line">&lt;ul type&#x3D;&quot;circle&quot;&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">	  &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">	  &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ul&gt;</span><br><span class="line">&lt;ul type&#x3D;&quot;square&quot;&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">	  &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">	  &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ul&gt;</span><br></pre></td></tr></table></figure>
+
+<p>无序列表的样式有三种，可以通过 <code>type</code> 属性修改。<code>type=&quot;disc&quot;</code> 代表实心圆，<code>type=&quot;circle&quot;</code> 代表空心圆，<code>type=&quot;square&quot;</code> 代表方形。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;ol type&#x3D;&quot;1&quot;&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ol&gt;</span><br><span class="line">&lt;ol type&#x3D;&quot;a&quot;&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ol&gt;</span><br><span class="line">&lt;ol type&#x3D;&quot;A&quot;&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ol&gt;</span><br><span class="line">&lt;ol type&#x3D;&quot;i&quot;&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ol&gt;</span><br><span class="line">&lt;ol type&#x3D;&quot;I&quot;&gt;</span><br><span class="line">    &lt;li&gt;项目1&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目2&lt;&#x2F;li&gt;</span><br><span class="line">    &lt;li&gt;项目3&lt;&#x2F;li&gt;</span><br><span class="line">&lt;&#x2F;ol&gt;</span><br></pre></td></tr></table></figure>
+
+<p>同样可以通过 <code>type</code> 属性来修改有序列表的样式。<code>type=&quot;1&quot;</code> 使用数字排序，<code>type=&quot;a&quot;</code> 使用小写字母排序，<code>type=&quot;A&quot;</code> 使用大写字母排序，<code>type=&quot;i&quot;</code> 使用消息罗马字母排序，<code>type=&quot;I&quot;</code> 使用大写罗马字母排序。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;del&gt;&lt;&#x2F;del&gt;</span><br><span class="line">2&lt;sup&gt;2&lt;&#x2F;sup&gt; &#x3D; 4</span><br><span class="line">&lt;u&gt;&lt;&#x2F;u&gt;</span><br><span class="line">&lt;center&gt;&lt;&#x2F;center&gt;</span><br></pre></td></tr></table></figure>
+
+<p><code>del</code> 标签增加删除线。</p>
+<p><code>sup</code> 标签可以让文字变为上标，数学公式常用。</p>
+<p><code>u</code> 标签给文字增加下划线。</p>
+<p><code>center</code> 标签可以让文字居中。</p>
+]]></content>
+      <tags>
+        <tag>计算机,web</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JVM内存结构学习</title>
     <url>/2020/12/04/JVM%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<p>JVM 的内存结构的组成有堆（线程共享）、虚拟机栈（线程独享）、本地方法栈（线程独享）、程序计数器（线程独享）、方法栈（线程共享）。</p>
@@ -24,25 +105,6 @@
 <p><strong>静态常量池</strong>也叫 class 文件常量池，主要存放字面量（例如文本字符串、final 修饰的常量）和符号引用（例如类和接口的全限定名、字段的名称和描述符、方法的名称和描述符）。</p>
 <p><strong>运行时常量池</strong>，当类加载到内存中后，JVM 就会将静态常量池中的内容存放到运行时常量池中；运行时常量池里面存储的主要是编译期间生成的字面量、符号引用等。</p>
 <p><strong>字符串常量池</strong>，可以理解成运行时常量池分出来的一部分，当类加载到内存的时候，字符串会存到字符串常量池中。</p>
-]]></content>
-      <tags>
-        <tag>计算机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Please make sure you have the correct access rights</title>
-    <url>/2020/12/28/Please-make-sure-you-have-the-correct-access-rights/</url>
-    <content><![CDATA[<p>我想在 <code>gitlab</code> 上创建一个项目，然后我却发现自己没办法将本地的项目 <code>push</code> 到远程仓库。</p>
-<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab1.png"></p>
-<p>我使用的是下图的方法，将已经存在的项目推送到远程仓库。</p>
-<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab2.png"></p>
-<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab3.png"></p>
-<p>这里并不是我的 id_rsa.pub key 没有配置到 <code>gitlab</code> 上。我的其他项目是可以正常 <code>pull</code> 的。所以，我想到了一种曲线救国的方法。</p>
-<p>就是让另一个用户创建项目，然后把项目权限分配给我。这样我就可以将本地仓库的代码 <code>push</code> 到远程仓库了。</p>
-<p>添加权限的界面如下。</p>
-<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab4.png"></p>
-<p>最后显示执行成功。</p>
-<p><img src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202012/gitlab5.png"></p>
 ]]></content>
       <tags>
         <tag>计算机</tag>
@@ -79,18 +141,6 @@
 ]]></content>
       <tags>
         <tag>工具人</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>正则表达式笔记</title>
-    <url>/2020/12/25/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<p><code>+</code> 代表前面的字符至少出现一次，比如 <code>regula+r</code> 表达式，符合的字符串有</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">regular</span><br><span class="line">regulaaaar</span><br><span class="line">regulaaaaaaaaar</span><br></pre></td></tr></table></figure>
-
-<p><code>*</code> 代表前面的字符可以不出现，也可以出现一次或多次</p>
-]]></content>
-      <tags>
-        <tag>计算机</tag>
       </tags>
   </entry>
   <entry>
@@ -154,6 +204,18 @@
 
 <p><code>JVMExample3</code> 的构造块和构造方法没有执行，因为代码里面没有 <code>new JVMExample3()</code>。</p>
 <h2 id="使用和卸载"><a href="#使用和卸载" class="headerlink" title="使用和卸载"></a>使用和卸载</h2><p>类初始化完成后就可以使用了，使用完成后进行卸载。</p>
+]]></content>
+      <tags>
+        <tag>计算机</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>正则表达式笔记</title>
+    <url>/2020/12/25/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[<p><code>+</code> 代表前面的字符至少出现一次，比如 <code>regula+r</code> 表达式，符合的字符串有</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">regular</span><br><span class="line">regulaaaar</span><br><span class="line">regulaaaaaaaaar</span><br></pre></td></tr></table></figure>
+
+<p><code>*</code> 代表前面的字符可以不出现，也可以出现一次或多次</p>
 ]]></content>
       <tags>
         <tag>计算机</tag>
