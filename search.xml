@@ -72,6 +72,21 @@
       </tags>
   </entry>
   <entry>
+    <title>HTML笔记（2）</title>
+    <url>/2021/01/14/HTML%E7%AC%94%E8%AE%B0%EF%BC%882%EF%BC%89/</url>
+    <content><![CDATA[<p>（1）</p>
+<p>绝对路径和相对路径</p>
+<p>绝对路径就是文件在系统硬盘中真正的路径。</p>
+<p>相对路径就是相对与目标文件所在的路径。</p>
+<p>（2）</p>
+<p>简单表格制作</p>
+]]></content>
+      <tags>
+        <tag>计算机</tag>
+        <tag>web</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JVM内存结构学习</title>
     <url>/2020/12/04/JVM%E5%86%85%E5%AD%98%E7%BB%93%E6%9E%84%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<p>JVM 的内存结构的组成有堆（线程共享）、虚拟机栈（线程独享）、本地方法栈（线程独享）、程序计数器（线程独享）、方法栈（线程共享）。</p>
@@ -274,21 +289,6 @@
 ]]></content>
       <tags>
         <tag>计算机</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>HTML笔记（2）</title>
-    <url>/2021/01/14/HTML%E7%AC%94%E8%AE%B0%EF%BC%882%EF%BC%89/</url>
-    <content><![CDATA[<p>（1）</p>
-<p>绝对路径和相对路径</p>
-<p>绝对路径就是文件在系统硬盘中真正的路径。</p>
-<p>相对路径就是相对与目标文件所在的路径。</p>
-<p>（2）</p>
-<p>简单表格制作</p>
-]]></content>
-      <tags>
-        <tag>计算机</tag>
-        <tag>web</tag>
       </tags>
   </entry>
 </search>
