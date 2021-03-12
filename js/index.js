@@ -547,6 +547,34 @@ var vue = new Vue({
                                 message: '纪录片天地',
                                 url: 'http://www.jlpcn.net/'
                             },
+                            {
+                                message: '腾讯视频',
+                                url: 'https://v.qq.com/doco/'
+                            },
+                            {
+                                message: 'bilibili',
+                                url: 'https://www.bilibili.com/documentary/'
+                            },
+                            {
+                                message: '爱奇艺',
+                                url: 'https://www.iqiyi.com/jilupian/'
+                            },
+                            {
+                                message: '优酷',
+                                url: 'https://jilupian.youku.com/'
+                            },
+                            {
+                                message: '咪咕',
+                                url: 'https://www.miguvideo.com/mgs/website/prd/index.html?pageId=5fa4bf015b384c0db8fbfecbdf1c2365'
+                            },
+                            {
+                                message: '芒果TV',
+                                url: 'https://www.mgtv.com/doc/?fpa=19687'
+                            },
+                            {
+                                message: '西瓜视频',
+                                url: 'https://www.ixigua.com/channel/jilupian/'
+                            },
                         ]
                     },
                     {
