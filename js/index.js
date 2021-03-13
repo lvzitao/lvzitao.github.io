@@ -12,6 +12,10 @@ var vue = new Vue({
                         url: 'http://news.baidu.com/'
                     },
                     {
+                        message: '纽约时报中文网站',
+                        url: 'https://cn.nytimes.com/'
+                    },
+                    {
                         message: '新浪新闻',
                         url: 'https://news.sina.com.cn/'
                     },
@@ -127,12 +131,55 @@ var vue = new Vue({
                         message: '爱范儿 ifanr',
                         url: 'https://www.ifanr.com/'
                     },
+                    {
+                        message: 'gamereactor',
+                        url: 'https://www.gamereactor.cn/'
+                    },
+                    {
+                        message: 'flipboard',
+                        url: 'https://flipboard.com/'
+                    },
+                    {
+                        message: '汽车之家',
+                        url: 'https://www.autohome.com.cn/beijing/'
+                    },
+                    {
+                        message: '上市公司',
+                        url: 'https://company.cnstock.com/'
+                    },
 
                 ]
             },
             {
                 message: '01 英文新闻',
                 folders: [
+                    {
+                        message: '社交',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'twitter',
+                                url: 'https://twitter.com/home'
+                            },
+                            {
+                                message: 'facebook',
+                                url: 'https://www.facebook.com/'
+                            },
+                            {
+                                message: 'twitch',
+                                url: 'https://www.twitch.tv/'
+                            },
+                            {
+                                message: 'youtube',
+                                url: 'https://www.youtube.com/'
+                            },
+                            {
+                                message: 'instagram',
+                                url: 'https://www.instagram.com/'
+                            },
+                        ]
+                    },
                     {
                         message: '千万像素 petapixel',
                         url: 'https://petapixel.com/'
@@ -162,12 +209,8 @@ var vue = new Vue({
                         url: 'https://www.wired.com/'
                     },
                     {
-                        message: 'siberiantimes',
+                        message: 'siberiantimes 💤',
                         url: 'https://siberiantimes.com/home/'
-                    },
-                    {
-                        message: 'gamereactor',
-                        url: 'https://www.gamereactor.cn/'
                     },
                     {
                         message: 'google news',
@@ -194,15 +237,15 @@ var vue = new Vue({
                         url: 'https://www.ap.org/en-gb/'
                     },
                     {
-                        message: '美国读者文摘 rd',
+                        message: '美国读者文摘 rd 💤',
                         url: 'https://www.rd.com/'
                     },
                     {
-                        message: '华盛顿新闻报 newsday',
+                        message: '华盛顿新闻报 newsday 💤',
                         url: 'https://www.newsday.com/'
                     },
                     {
-                        message: '纽约每日新闻 nydailynews',
+                        message: '纽约每日新闻 nydailynews 💤',
                         url: 'https://www.nydailynews.com/'
                     },
                     {
@@ -214,8 +257,16 @@ var vue = new Vue({
                         url: 'https://www.bloomberg.net/'
                     },
                     {
-                        message: '科技探索 techxplore',
+                        message: '科技探索 techxplore 💤',
                         url: 'https://techxplore.com/'
+                    },
+                    {
+                        message: '澳大利亚广播公司 abc',
+                        url: 'https://www.abc.net.au/news/'
+                    },
+                    {
+                        message: 'buzzfeed 💤',
+                        url: 'https://www.buzzfeed.com/'
                     },
                 ]
             },
