@@ -12,6 +12,10 @@ var vue = new Vue({
                         url: 'http://news.baidu.com/'
                     },
                     {
+                        message: '腾讯新闻',
+                        url: 'https://new.qq.com/'
+                    },
+                    {
                         message: '纽约时报中文网站',
                         url: 'https://cn.nytimes.com/'
                     },
@@ -147,6 +151,18 @@ var vue = new Vue({
                         message: '上市公司',
                         url: 'https://company.cnstock.com/'
                     },
+                    {
+                        message: '全现在',
+                        url: 'https://www.allnow.com/'
+                    },
+                    {
+                        message: '环球网',
+                        url: 'https://www.huanqiu.com/'
+                    },
+                    {
+                        message: '天涯社区',
+                        url: 'https://bbs.tianya.cn/'
+                    },
 
                 ]
             },
@@ -183,6 +199,10 @@ var vue = new Vue({
                     {
                         message: '千万像素 petapixel',
                         url: 'https://petapixel.com/'
+                    },
+                    {
+                        message: '千万像素 petapixel',
+                        url: 'https://www.techradar.com/'
                     },
                     {
                         message: '英国广播公司 bbc',
@@ -267,6 +287,26 @@ var vue = new Vue({
                     {
                         message: 'buzzfeed 💤',
                         url: 'https://www.buzzfeed.com/'
+                    },
+                    {
+                        message: 'interconnected',
+                        url: 'https://interconnected.blog/'
+                    },
+                    {
+                        message: 'medium',
+                        url: 'https://leung-btc.medium.com/'
+                    },
+                    {
+                        message: 'cjr',
+                        url: 'https://www.cjr.org/'
+                    },
+                    {
+                        message: 'medium',
+                        url: 'https://medium.com/'
+                    },
+                    {
+                        message: 'gamasutra',
+                        url: 'https://gamasutra.com/'
                     },
                 ]
             },
