@@ -308,6 +308,10 @@ var vue = new Vue({
                         message: 'gamasutra',
                         url: 'https://gamasutra.com/'
                     },
+                    {
+                        message: '华尔街日报 wsj',
+                        url: 'https://www.wsj.com/'
+                    },
                 ]
             },
             {
