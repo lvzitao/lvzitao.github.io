@@ -76,6 +76,10 @@ var vue = new Vue({
                         url: 'http://www.inewsweek.cn/'
                     },
                     {
+                        message: '中国新闻网',
+                        url: 'https://www.chinanews.com/'
+                    },
+                    {
                         message: '太原新闻网',
                         url: 'http://www.tynews.com.cn/'
                     },
