@@ -475,6 +475,10 @@ var vue = new Vue({
                         message: '世界各国网址大全',
                         url: 'http://www.world68.com/'
                     },
+                    {
+                        message: 'zfj',
+                        url: 'https://zfj.sr9.xyz/user'
+                    },
                 ]
             },
             {
