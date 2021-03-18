@@ -14,9 +14,6 @@
     <div id="contents">
         <ul id="menuList">
             <li v-for="item in items" class="commonLi">
-                <!-- <img class="arrowImg" src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202102/arrow.gif"></img> -->
-                <!-- <img class="arrowImg" src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202102/arrow.gif"></img> -->
-                <!-- <img class="commonImg" src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202102/folder.gif"></img> -->
                 <img class="commonImg" src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202102/folder-block.gif"></img>
                 <a id="commonLink" href="javascript:;" onclick="clickFolder(this)">{{ item.message }}</a>
                 
@@ -24,7 +21,6 @@
                     <li v-for="folder in item.folders" style="list-style: none;">
                         <div v-if="folder.type === 'folder'">
                             <!-- <img class="arrowImg" src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202102/arrow.gif"></img> -->
-                            <!-- <img class="commonImg" src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202102/folder.gif"></img> -->
                             <img class="commonImg" src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202102/folder-block.gif"></img>
                             <a id="commonLink" href="javascript:;" onclick="clickFolder(this)">{{ folder.message }}</a>
 
