@@ -205,7 +205,7 @@ var vue = new Vue({
                         url: 'https://petapixel.com/'
                     },
                     {
-                        message: '千万像素 petapixel',
+                        message: 'techradar',
                         url: 'https://www.techradar.com/'
                     },
                     {
