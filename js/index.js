@@ -316,6 +316,10 @@ var vue = new Vue({
                         message: '华尔街日报 wsj 💤',
                         url: 'https://www.wsj.com/'
                     },
+                    {
+                        message: 'sciencemag',
+                        url: 'https://science.sciencemag.org/'
+                    },
                 ]
             },
             {
