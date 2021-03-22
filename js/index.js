@@ -92,7 +92,7 @@ var vue = new Vue({
                         url: 'https://www.mobile01.com/'
                     },
                     {
-                        message: '果壳',
+                        message: '果壳 👍',
                         url: 'https://www.guokr.com/'
                     },
                     {
