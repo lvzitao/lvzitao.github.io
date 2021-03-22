@@ -167,6 +167,10 @@ var vue = new Vue({
                         message: '天涯社区',
                         url: 'https://bbs.tianya.cn/'
                     },
+                    {
+                        message: '36氪',
+                        url: 'https://36kr.com/'
+                    },
 
                 ]
             },
