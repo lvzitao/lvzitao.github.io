@@ -320,6 +320,14 @@ var vue = new Vue({
                         message: 'sciencemag',
                         url: 'https://science.sciencemag.org/'
                     },
+                    {
+                        message: 'sciencedirect',
+                        url: 'https://www.sciencedirect.com/'
+                    },
+                    {
+                        message: 'nature',
+                        url: 'https://www.nature.com/'
+                    },
                 ]
             },
             {
