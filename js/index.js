@@ -171,6 +171,14 @@ var vue = new Vue({
                         message: '36氪',
                         url: 'https://36kr.com/'
                     },
+                    {
+                        message: '链滴',
+                        url: 'https://ld246.com/'
+                    },
+                    {
+                        message: '网易新闻',
+                        url: 'https://news.163.com/'
+                    },
 
                 ]
             },
