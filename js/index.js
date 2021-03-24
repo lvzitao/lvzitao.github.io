@@ -503,6 +503,10 @@ var vue = new Vue({
                         message: 'zfj',
                         url: 'https://zfj.sr9.xyz/user'
                     },
+                    {
+                        message: '图片压缩 ezgif',
+                        url: 'https://ezgif.com/optimize'
+                    },
                 ]
             },
             {
