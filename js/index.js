@@ -128,7 +128,7 @@ var vue = new Vue({
                         url: 'https://www.huxiu.com/'
                     },
                     {
-                        message: 'myzaker',
+                        message: 'myzaker 聚合',
                         url: 'https://www.myzaker.com/'
                     },
                     {
@@ -191,10 +191,6 @@ var vue = new Vue({
                         type: 'folder',
                         folders: [
                             {
-                                message: 'flipboard 👍',
-                                url: 'https://flipboard.com/'
-                            },
-                            {
                                 message: 'twitter',
                                 url: 'https://twitter.com/home'
                             },
@@ -215,6 +211,10 @@ var vue = new Vue({
                                 url: 'https://www.instagram.com/'
                             },
                         ]
+                    },
+                    {
+                        message: 'flipboard 👍',
+                        url: 'https://flipboard.com/'
                     },
                     {
                         message: '千万像素 petapixel',
