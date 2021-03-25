@@ -144,10 +144,6 @@ var vue = new Vue({
                         url: 'https://www.gamereactor.cn/'
                     },
                     {
-                        message: 'flipboard',
-                        url: 'https://flipboard.com/'
-                    },
-                    {
                         message: '汽车之家',
                         url: 'https://www.autohome.com.cn/beijing/'
                     },
@@ -194,6 +190,10 @@ var vue = new Vue({
                         url: '',
                         type: 'folder',
                         folders: [
+                            {
+                                message: 'flipboard 👍',
+                                url: 'https://flipboard.com/'
+                            },
                             {
                                 message: 'twitter',
                                 url: 'https://twitter.com/home'
