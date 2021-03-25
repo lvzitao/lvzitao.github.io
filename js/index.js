@@ -325,7 +325,7 @@ var vue = new Vue({
                         url: 'https://gamasutra.com/'
                     },
                     {
-                        message: '华尔街日报 wsj 💤',
+                        message: '华尔街日报 wsj',
                         url: 'https://www.wsj.com/'
                     },
                     {
