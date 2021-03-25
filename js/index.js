@@ -179,6 +179,10 @@ var vue = new Vue({
                         message: '网易新闻',
                         url: 'https://news.163.com/'
                     },
+                    {
+                        message: '泰伯网',
+                        url: 'http://www.taibo.cn/'
+                    },
 
                 ]
             },
