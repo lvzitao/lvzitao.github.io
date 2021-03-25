@@ -5,7 +5,7 @@ var vue = new Vue({
     data: {
         items: [
             {
-                message: '00 中文新闻',
+                message: '中文新闻',
                 folders: [
                     {
                         message: '百度新闻',
@@ -183,7 +183,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '01 英文新闻',
+                message: '英文新闻',
                 folders: [
                     {
                         message: '社交',
@@ -343,7 +343,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '02 技术文档',
+                message: '技术文档',
                 folders: [
                     {
                         message: 'PigX admin/123456',
@@ -460,7 +460,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '03 电子书籍',
+                message: '电子书籍',
                 folders: [
                     {
                         message: 'Java编程的逻辑',
@@ -477,7 +477,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '04 在线工具',
+                message: '在线工具',
                 folders: [
                     {
                         message: 'JSON格式化',
@@ -510,7 +510,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '05 开发工具',
+                message: '开发工具',
                 folders: [
                     {
                         message: 'Eclipse',
@@ -575,7 +575,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '06 软件安装',
+                message: '软件安装',
                 folders: [
                     {
                         message: 'xclient',
@@ -584,7 +584,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '07 新媒体',
+                message: '新媒体',
                 folders: [
                     {
                         message: '新榜',
@@ -617,7 +617,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '08 学习网站',
+                message: '学习网站',
                 folders: [
                     {
                         message: '网易公开课',
@@ -630,7 +630,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '09 个人博客',
+                message: '个人博客',
                 folders: [
                     {
                         message: 'soynomm',
@@ -659,7 +659,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '10 影视',
+                message: '影视',
                 folders: [
                     {
                         message: '纪录片',
@@ -719,7 +719,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '11 资源',
+                message: '资源',
                 folders: [
                     {
                         message: '故宫博物院藏品总数目',
@@ -736,7 +736,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '12 免费图库',
+                message: '免费图库',
                 folders: [
                     {
                         message: 'unsplash',
@@ -789,7 +789,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '13 免费作图工具',
+                message: '免费作图工具',
                 folders: [
                     {
                         message: 'yed',
@@ -850,7 +850,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '14 免费音乐（可商用）',
+                message: '免费音乐（可商用）',
                 folders: [
                     {
                         message: 'bensound',
@@ -908,7 +908,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '15 免费视频编辑器',
+                message: '免费视频编辑器',
                 folders: [
                     {
                         message: 'DaVinci Resolve',
@@ -929,7 +929,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '99 办事',
+                message: '办事',
                 folders: [
                     {
                         message: '国家税务总局北京市税务局',
