@@ -330,7 +330,7 @@ var vue = new Vue({
                     },
                     {
                         message: 'sciencemag',
-                        url: 'https://science.sciencemag.org/'
+                        url: 'https://advances.sciencemag.org/'
                     },
                     {
                         message: 'sciencedirect',
