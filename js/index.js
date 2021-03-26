@@ -109,7 +109,7 @@ var vue = new Vue({
                     },
                     {
                         message: '推酷',
-                        url: 'https://www.tuicool.com/'
+                        url: 'https://www.tuicool.com/mags/tech'
                     },
                     {
                         message: '哈佛商业评论',
@@ -460,7 +460,11 @@ var vue = new Vue({
                     {
                         message: 'CS Note',
                         url: 'https://github.com/CyC2018/CS-Notes'
-                    }
+                    },
+                    {
+                        message: 'Aliyun ons',
+                        url: 'https://help.aliyun.com/document_detail/49323.html?spm=a2c4g.11186623.6.604.3b4a375dLle9v2'
+                    },
                 ]
             },
             {
