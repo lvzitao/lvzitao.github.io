@@ -347,6 +347,19 @@ var vue = new Vue({
                 ]
             },
             {
+                message: '金融网站',
+                folders: [
+                    {
+                        message: '天天基金',
+                        url: 'https://fund.eastmoney.com/'
+                    },
+                    {
+                        message: '理杏仁',
+                        url: 'https://www.lixinger.com/'
+                    },
+                ]
+            },
+            {
                 message: '技术文档',
                 folders: [
                     {
