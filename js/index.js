@@ -357,6 +357,10 @@ var vue = new Vue({
                         message: '理杏仁',
                         url: 'https://www.lixinger.com/'
                     },
+                    {
+                        message: '晨星网',
+                        url: 'https://www.morningstar.cn/main/default.aspx'
+                    },
                 ]
             },
             {
