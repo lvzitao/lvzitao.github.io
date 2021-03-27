@@ -478,6 +478,10 @@ var vue = new Vue({
                         message: 'Aliyun ons',
                         url: 'https://help.aliyun.com/document_detail/49323.html?spm=a2c4g.11186623.6.604.3b4a375dLle9v2'
                     },
+                    {
+                        message: 'java11 Doc',
+                        url: 'https://www.apiref.com/java11-zh/index.html'
+                    },
                 ]
             },
             {
