@@ -305,7 +305,7 @@ var vue = new Vue({
                     },
                     {
                         message: '彭博社 bloomberg',
-                        url: 'https://www.bloomberg.net/'
+                        url: 'https://www.bloomberg.com/asia'
                     },
                     {
                         message: '科技探索 techxplore 💤',
@@ -324,7 +324,7 @@ var vue = new Vue({
                         url: 'https://interconnected.blog/'
                     },
                     {
-                        message: 'medium',
+                        message: 'leung-btc medium',
                         url: 'https://leung-btc.medium.com/'
                     },
                     {
