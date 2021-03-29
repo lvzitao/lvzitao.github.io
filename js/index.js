@@ -213,8 +213,23 @@ var vue = new Vue({
                         ]
                     },
                     {
-                        message: 'flipboard 👍',
-                        url: 'https://flipboard.com/'
+                        message: '科技',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'sciencefocus',
+                                url: 'https://www.sciencefocus.com/'
+                            },
+                            {
+                                message: '聚合 flipboard 👍',
+                                url: 'https://flipboard.com/'
+                            },
+                            {
+                                message: '连线 wired',
+                                url: 'https://www.wired.com/category/science/'
+                            },
+                        ]
                     },
                     {
                         message: '千万像素 petapixel',
@@ -243,10 +258,6 @@ var vue = new Vue({
                     {
                         message: 'theregister',
                         url: 'https://www.theregister.com/'
-                    },
-                    {
-                        message: 'wired 连线',
-                        url: 'https://www.wired.com/'
                     },
                     {
                         message: 'siberiantimes 💤',
@@ -540,6 +551,10 @@ var vue = new Vue({
                         message: '图片压缩 ezgif',
                         url: 'https://ezgif.com/optimize'
                     },
+                    {
+                        message: '草料二维码',
+                        url: 'https://cli.im/tools'
+                    },
                 ]
             },
             {
@@ -818,6 +833,14 @@ var vue = new Vue({
                     {
                         message: 'polayoutu',
                         url: 'http://www.polayoutu.com'
+                    },
+                    {
+                        message: 'GIF giphy',
+                        url: 'https://giphy.com/'
+                    },
+                    {
+                        message: 'GIF soogif',
+                        url: 'https://www.soogif.com/'
                     },
                 ]
             },
