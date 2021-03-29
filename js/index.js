@@ -213,6 +213,17 @@ var vue = new Vue({
                         ]
                     },
                     {
+                        message: '科技',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'sciencefocus',
+                                url: 'https://www.sciencefocus.com/'
+                            },
+                        ]
+                    },
+                    {
                         message: 'flipboard 👍',
                         url: 'https://flipboard.com/'
                     },
@@ -536,6 +547,10 @@ var vue = new Vue({
                         message: '图片压缩 ezgif',
                         url: 'https://ezgif.com/optimize'
                     },
+                    {
+                        message: '草料二维码',
+                        url: 'https://cli.im/tools'
+                    },
                 ]
             },
             {
@@ -814,6 +829,14 @@ var vue = new Vue({
                     {
                         message: 'polayoutu',
                         url: 'http://www.polayoutu.com'
+                    },
+                    {
+                        message: 'GIF giphy',
+                        url: 'https://giphy.com/'
+                    },
+                    {
+                        message: 'GIF soogif',
+                        url: 'https://www.soogif.com/'
                     },
                 ]
             },
