@@ -229,6 +229,10 @@ var vue = new Vue({
                                 message: '连线 wired',
                                 url: 'https://www.wired.com/category/science/'
                             },
+                            {
+                                message: '科技探索 techxplore 💤',
+                                url: 'https://techxplore.com/'
+                            },
                         ]
                     },
                     {
@@ -306,10 +310,6 @@ var vue = new Vue({
                     {
                         message: '彭博社 bloomberg',
                         url: 'https://www.bloomberg.com/asia'
-                    },
-                    {
-                        message: '科技探索 techxplore 💤',
-                        url: 'https://techxplore.com/'
                     },
                     {
                         message: '澳大利亚广播公司 abc',
