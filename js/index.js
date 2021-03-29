@@ -274,7 +274,7 @@ var vue = new Vue({
                     },
                     {
                         message: '美联社 ap',
-                        url: 'https://www.ap.org/en-gb/'
+                        url: 'https://apnews.com/'
                     },
                     {
                         message: '美国读者文摘 rd 💤',
@@ -360,6 +360,10 @@ var vue = new Vue({
                     {
                         message: '晨星网',
                         url: 'https://www.morningstar.cn/main/default.aspx'
+                    },
+                    {
+                        message: 'i问财',
+                        url: 'http://www.iwencai.com/unifiedwap/home/index'
                     },
                 ]
             },
