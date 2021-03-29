@@ -225,11 +225,11 @@ var vue = new Vue({
                                 message: '聚合 flipboard 👍',
                                 url: 'https://flipboard.com/'
                             },
+                            {
+                                message: '连线 wired',
+                                url: 'https://www.wired.com/category/science/'
+                            },
                         ]
-                    },
-                    {
-                        message: 'flipboard 👍',
-                        url: 'https://flipboard.com/'
                     },
                     {
                         message: '千万像素 petapixel',
@@ -258,10 +258,6 @@ var vue = new Vue({
                     {
                         message: 'theregister',
                         url: 'https://www.theregister.com/'
-                    },
-                    {
-                        message: 'wired 连线',
-                        url: 'https://www.wired.com/'
                     },
                     {
                         message: 'siberiantimes 💤',
