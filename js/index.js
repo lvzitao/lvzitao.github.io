@@ -221,6 +221,10 @@ var vue = new Vue({
                                 message: 'sciencefocus',
                                 url: 'https://www.sciencefocus.com/'
                             },
+                            {
+                                message: '聚合 flipboard 👍',
+                                url: 'https://flipboard.com/'
+                            },
                         ]
                     },
                     {
