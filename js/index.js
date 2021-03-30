@@ -236,8 +236,8 @@ var vue = new Vue({
                         ]
                     },
                     {
-                        message: '千万像素 petapixel',
-                        url: 'https://petapixel.com/'
+                        message: 'nature 👍',
+                        url: 'https://www.nature.com/latest-news'
                     },
                     {
                         message: 'techradar',
@@ -336,10 +336,6 @@ var vue = new Vue({
                         url: 'https://medium.com/'
                     },
                     {
-                        message: 'gamasutra',
-                        url: 'https://gamasutra.com/'
-                    },
-                    {
                         message: '华尔街日报 wsj',
                         url: 'https://www.wsj.com/'
                     },
@@ -352,8 +348,12 @@ var vue = new Vue({
                         url: 'https://www.sciencedirect.com/'
                     },
                     {
-                        message: 'nature 👍',
-                        url: 'https://www.nature.com/'
+                        message: '千万像素 petapixel',
+                        url: 'https://petapixel.com/'
+                    },
+                    {
+                        message: 'gamasutra',
+                        url: 'https://gamasutra.com/'
                     },
                 ]
             },
