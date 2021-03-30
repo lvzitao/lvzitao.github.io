@@ -233,6 +233,10 @@ var vue = new Vue({
                                 message: '科技探索 techxplore 💤',
                                 url: 'https://techxplore.com/'
                             },
+                            {
+                                message: 'theverge',
+                                url: 'https://www.theverge.com/'
+                            },
                         ]
                     },
                     {
