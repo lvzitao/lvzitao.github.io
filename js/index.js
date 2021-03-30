@@ -8,8 +8,12 @@ var vue = new Vue({
                 message: '中文新闻',
                 folders: [
                     {
+                        message: 'myzaker 聚合',
+                        url: 'http://www.myzaker.com/channel/13'
+                    },
+                    {
                         message: '百度新闻',
-                        url: 'http://news.baidu.com/tech'
+                        url: 'https://new.qq.com/ch/tech/'
                     },
                     {
                         message: '腾讯新闻',
@@ -21,7 +25,7 @@ var vue = new Vue({
                     },
                     {
                         message: '新浪新闻',
-                        url: 'https://news.sina.com.cn/'
+                        url: 'https://tech.sina.com.cn/'
                     },
                     {
                         message: '钛媒体',
@@ -33,7 +37,7 @@ var vue = new Vue({
                     },
                     {
                         message: '观察',
-                        url: 'https://www.guancha.cn/'
+                        url: 'https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji'
                     },
                     {
                         message: '新浪',
@@ -41,7 +45,7 @@ var vue = new Vue({
                     },
                     {
                         message: '搜狐',
-                        url: 'https://www.sohu.com/'
+                        url: 'https://it.sohu.com/?spm=smpc.home.top-nav.22.1617119265873c7TKrpA'
                     },
                     {
                         message: 'ign中国',
@@ -126,10 +130,6 @@ var vue = new Vue({
                     {
                         message: '虎嗅网',
                         url: 'https://www.huxiu.com/'
-                    },
-                    {
-                        message: 'myzaker 聚合',
-                        url: 'https://www.myzaker.com/'
                     },
                     {
                         message: 'IT之家',
