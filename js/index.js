@@ -9,7 +9,7 @@ var vue = new Vue({
                 folders: [
                     {
                         message: '百度新闻',
-                        url: 'http://news.baidu.com/'
+                        url: 'http://news.baidu.com/tech'
                     },
                     {
                         message: '腾讯新闻',
@@ -237,6 +237,10 @@ var vue = new Vue({
                                 message: 'theverge',
                                 url: 'https://www.theverge.com/'
                             },
+                            {
+                                message: 'mymodernmet',
+                                url: 'https://mymodernmet.com/category/technology/'
+                            },
                         ]
                     },
                     {
@@ -258,10 +262,6 @@ var vue = new Vue({
                     {
                         message: '显卡 videocardz',
                         url: 'https://videocardz.com/'
-                    },
-                    {
-                        message: '我的现代网 mymodernmet 👍',
-                        url: 'https://mymodernmet.com/'
                     },
                     {
                         message: 'theregister',
