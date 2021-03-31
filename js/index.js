@@ -179,6 +179,10 @@ var vue = new Vue({
                         message: '泰伯网',
                         url: 'http://www.taibo.cn/'
                     },
+                    {
+                        message: 'historydaily',
+                        url: 'https://historydaily.org/'
+                    },
 
                 ]
             },
