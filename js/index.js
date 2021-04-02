@@ -40,10 +40,6 @@ var vue = new Vue({
                         url: 'https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji'
                     },
                     {
-                        message: '新浪',
-                        url: 'https://www.sina.com.cn/'
-                    },
-                    {
                         message: '搜狐',
                         url: 'https://it.sohu.com/?spm=smpc.home.top-nav.22.1617119265873c7TKrpA'
                     },
