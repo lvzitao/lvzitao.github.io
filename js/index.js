@@ -60,10 +60,6 @@ var vue = new Vue({
                         url: 'http://www.ce.cn/'
                     },
                     {
-                        message: '读者',
-                        url: 'https://www.duzhe.com/#/'
-                    },
-                    {
                         message: '环球人物',
                         url: 'http://www.globalpeople.com.cn/'
                     },
