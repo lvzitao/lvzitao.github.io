@@ -179,6 +179,10 @@ var vue = new Vue({
                         message: '泰伯网',
                         url: 'http://www.taibo.cn/'
                     },
+                    {
+                        message: '中国青年报',
+                        url: 'http://zqb.cyol.com/html/2017-08/11/nbs.D110000zgqnb_01.htm'
+                    },
 
                 ]
             },
