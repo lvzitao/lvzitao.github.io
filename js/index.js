@@ -8,8 +8,12 @@ var vue = new Vue({
                 message: '中文新闻',
                 folders: [
                     {
+                        message: 'myzaker 聚合',
+                        url: 'http://www.myzaker.com/channel/13'
+                    },
+                    {
                         message: '百度新闻',
-                        url: 'http://news.baidu.com/'
+                        url: 'https://new.qq.com/ch/tech/'
                     },
                     {
                         message: '腾讯新闻',
@@ -21,7 +25,7 @@ var vue = new Vue({
                     },
                     {
                         message: '新浪新闻',
-                        url: 'https://news.sina.com.cn/'
+                        url: 'https://tech.sina.com.cn/'
                     },
                     {
                         message: '钛媒体',
@@ -33,7 +37,7 @@ var vue = new Vue({
                     },
                     {
                         message: '观察',
-                        url: 'https://www.guancha.cn/'
+                        url: 'https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji'
                     },
                     {
                         message: '新浪',
@@ -41,7 +45,7 @@ var vue = new Vue({
                     },
                     {
                         message: '搜狐',
-                        url: 'https://www.sohu.com/'
+                        url: 'https://it.sohu.com/?spm=smpc.home.top-nav.22.1617119265873c7TKrpA'
                     },
                     {
                         message: 'ign中国',
@@ -128,10 +132,6 @@ var vue = new Vue({
                         url: 'https://www.huxiu.com/'
                     },
                     {
-                        message: 'myzaker 聚合',
-                        url: 'https://www.myzaker.com/'
-                    },
-                    {
                         message: 'IT之家',
                         url: 'https://www.ithome.com/'
                     },
@@ -182,6 +182,10 @@ var vue = new Vue({
                     {
                         message: '中国青年报',
                         url: 'http://zqb.cyol.com/html/2017-08/11/nbs.D110000zgqnb_01.htm'
+                    },
+                    {
+                        message: 'historydaily',
+                        url: 'https://historydaily.org/'
                     },
 
                 ]
@@ -241,6 +245,10 @@ var vue = new Vue({
                                 message: 'theverge',
                                 url: 'https://www.theverge.com/'
                             },
+                            {
+                                message: 'mymodernmet',
+                                url: 'https://mymodernmet.com/category/technology/'
+                            },
                         ]
                     },
                     {
@@ -262,10 +270,6 @@ var vue = new Vue({
                     {
                         message: '显卡 videocardz',
                         url: 'https://videocardz.com/'
-                    },
-                    {
-                        message: '我的现代网 mymodernmet 👍',
-                        url: 'https://mymodernmet.com/'
                     },
                     {
                         message: 'theregister',
