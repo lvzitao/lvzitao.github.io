@@ -768,6 +768,10 @@ var vue = new Vue({
                         message: '小嘀咕影院',
                         url: 'http://m.xdg456.com/'
                     },
+                    {
+                        message: '宅看影视',
+                        url: 'https://www.zhaikanys.com/'
+                    },
                 ]
             },
             {
