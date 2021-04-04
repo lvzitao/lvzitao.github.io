@@ -1015,6 +1015,10 @@ var vue = new Vue({
                         message: '中华人民共和国住房和城乡建设部',
                         url: 'http://www.mohurd.gov.cn/zyglgd/index.html',
                     },
+                    {
+                        message: '畅游公园',
+                        url: 'https://www.bjgyol.com.cn/index.html',
+                    },
                 ]
             }
         ]
