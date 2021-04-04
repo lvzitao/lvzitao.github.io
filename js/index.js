@@ -179,6 +179,10 @@ var vue = new Vue({
                         message: 'historydaily',
                         url: 'https://historydaily.org/'
                     },
+                    {
+                        message: '南方周末',
+                        url: 'http://www.infzm.com/'
+                    },
 
                 ]
             },
