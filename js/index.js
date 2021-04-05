@@ -560,12 +560,20 @@ var vue = new Vue({
                         url: 'https://ezgif.com/optimize'
                     },
                     {
+                        message: '图片压缩 iloveimg',
+                        url: 'https://www.iloveimg.com/zh-cn/compress-image'
+                    },
+                    {
                         message: '草料二维码',
                         url: 'https://cli.im/tools'
                     },
                     {
                         message: 'b站视频下载',
                         url: 'https://bilibili.iiilab.com/'
+                    },
+                    {
+                        message: '视频下载 小蜜蜂工具人',
+                        url: 'https://www.guoxingjun.com/video/bilibili'
                     },
                 ]
             },
@@ -644,7 +652,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '新媒体',
+                message: '媒体工具',
                 folders: [
                     {
                         message: '新榜',
@@ -719,7 +727,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '影视',
+                message: '影视资源',
                 folders: [
                     {
                         message: '纪录片',
@@ -783,7 +791,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '资源',
+                message: '免费资源',
                 folders: [
                     {
                         message: '故宫博物院藏品总数目',
@@ -796,6 +804,10 @@ var vue = new Vue({
                     {
                         message: '全历史',
                         url: 'https://www.allhistory.com/'
+                    },
+                    {
+                        message: '全景客 虚拟旅游',
+                        url: 'https://www.quanjingke.com/'
                     },
                 ]
             },
@@ -858,10 +870,14 @@ var vue = new Vue({
                         message: 'GIF soogif',
                         url: 'https://www.soogif.com/'
                     },
+                    {
+                        message: '图片搜索 yandex',
+                        url: 'https://yandex.com/images/'
+                    },
                 ]
             },
             {
-                message: '免费作图工具',
+                message: '作图工具',
                 folders: [
                     {
                         message: 'yed',
@@ -922,7 +938,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '免费音乐（可商用）',
+                message: '免费音乐',
                 folders: [
                     {
                         message: 'bensound',
@@ -980,7 +996,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '免费视频编辑器',
+                message: '视频编辑',
                 folders: [
                     {
                         message: 'DaVinci Resolve',
@@ -1001,7 +1017,16 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '办事',
+                message: '文字编辑',
+                folders: [
+                    {
+                        message: 'stackedit',
+                        url: 'https://stackedit.io/'
+                    },
+                ]
+            },
+            {
+                message: '办事系统',
                 folders: [
                     {
                         message: '国家税务总局北京市税务局',
