@@ -384,6 +384,10 @@ var vue = new Vue({
                         message: 'i问财',
                         url: 'http://www.iwencai.com/unifiedwap/home/index'
                     },
+                    {
+                        message: '中证网',
+                        url: 'http://www.cs.com.cn/'
+                    },
                 ]
             },
             {
