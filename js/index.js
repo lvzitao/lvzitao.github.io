@@ -563,6 +563,10 @@ var vue = new Vue({
                         message: '草料二维码',
                         url: 'https://cli.im/tools'
                     },
+                    {
+                        message: 'b站视频下载',
+                        url: 'https://bilibili.iiilab.com/'
+                    },
                 ]
             },
             {
