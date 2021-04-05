@@ -1027,6 +1027,10 @@ var vue = new Vue({
                         message: '畅游公园',
                         url: 'https://www.bjgyol.com.cn/index.html',
                     },
+                    {
+                        message: '北京工作居住证管理',
+                        url: 'http://219.232.200.39/uamsso/',
+                    },
                 ]
             }
         ]
