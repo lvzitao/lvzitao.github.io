@@ -367,6 +367,10 @@ var vue = new Vue({
                         message: 'cnet',
                         url: 'https://www.cnet.com/news/'
                     },
+                    {
+                        message: 'aeon',
+                        url: 'https://aeon.co/science'
+                    },
                 ]
             },
             {
