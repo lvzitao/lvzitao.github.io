@@ -245,19 +245,31 @@ var vue = new Vue({
                                 message: 'mymodernmet',
                                 url: 'https://mymodernmet.com/category/technology/'
                             },
+                            {
+                                message: '英国广播公司 bbc',
+                                url: 'https://www.bbc.com/news/technology'
+                            },
+                            {
+                                message: 'techradar',
+                                url: 'https://www.techradar.com/'
+                            },
+                            {
+                                message: 'theregister',
+                                url: 'https://www.theregister.com/'
+                            },
+                            {
+                                message: '纽约时报 nytimes',
+                                url: 'https://www.nytimes.com/section/technology'
+                            },
+                            {
+                                message: '今日美国 usatoday',
+                                url: 'https://www.usatoday.com/tech/'
+                            },
                         ]
                     },
                     {
                         message: 'nature 👍',
                         url: 'https://www.nature.com/latest-news'
-                    },
-                    {
-                        message: 'techradar',
-                        url: 'https://www.techradar.com/'
-                    },
-                    {
-                        message: '英国广播公司 bbc',
-                        url: 'https://www.bbc.com/'
                     },
                     {
                         message: '路透社 reuters',
@@ -268,24 +280,12 @@ var vue = new Vue({
                         url: 'https://videocardz.com/'
                     },
                     {
-                        message: 'theregister',
-                        url: 'https://www.theregister.com/'
-                    },
-                    {
                         message: 'siberiantimes 💤',
                         url: 'https://siberiantimes.com/home/'
                     },
                     {
                         message: 'google news',
                         url: 'https://news.google.com/'
-                    },
-                    {
-                        message: '纽约时报 nytimes',
-                        url: 'https://www.nytimes.com/'
-                    },
-                    {
-                        message: '今日美国 suatoday',
-                        url: 'https://www.usatoday.com/'
                     },
                     {
                         message: '美国有线电视新闻网 cnn',
