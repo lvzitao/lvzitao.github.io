@@ -363,6 +363,10 @@ var vue = new Vue({
                         message: 'gamasutra',
                         url: 'https://gamasutra.com/'
                     },
+                    {
+                        message: 'cnet',
+                        url: 'https://www.cnet.com/news/'
+                    },
                 ]
             },
             {
