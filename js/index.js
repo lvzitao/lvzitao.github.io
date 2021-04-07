@@ -234,7 +234,7 @@ var vue = new Vue({
                                 url: 'https://www.wired.com/category/science/'
                             },
                             {
-                                message: '科技探索 techxplore 💤',
+                                message: '科技探索 techxplore',
                                 url: 'https://techxplore.com/'
                             },
                             {
