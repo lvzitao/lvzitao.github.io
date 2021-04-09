@@ -265,6 +265,18 @@ var vue = new Vue({
                                 message: '今日美国 usatoday',
                                 url: 'https://www.usatoday.com/tech/'
                             },
+                            {
+                                message: '路透社 reuters',
+                                url: 'https://www.reuters.com/'
+                            },
+                            {
+                                message: 'sciencemag',
+                                url: 'https://advances.sciencemag.org/'
+                            },
+                            {
+                                message: 'sciencedirect',
+                                url: 'https://www.sciencedirect.com/'
+                            },
                         ]
                     },
                     {
@@ -281,10 +293,6 @@ var vue = new Vue({
                     {
                         message: 'nature 👍',
                         url: 'https://www.nature.com/latest-news'
-                    },
-                    {
-                        message: '路透社 reuters',
-                        url: 'https://www.reuters.com/'
                     },
                     {
                         message: '显卡 videocardz',
@@ -357,14 +365,6 @@ var vue = new Vue({
                     {
                         message: '华尔街日报 wsj',
                         url: 'https://www.wsj.com/'
-                    },
-                    {
-                        message: 'sciencemag',
-                        url: 'https://advances.sciencemag.org/'
-                    },
-                    {
-                        message: 'sciencedirect',
-                        url: 'https://www.sciencedirect.com/'
                     },
                     {
                         message: '千万像素 petapixel',
