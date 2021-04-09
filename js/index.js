@@ -268,6 +268,17 @@ var vue = new Vue({
                         ]
                     },
                     {
+                        message: '游戏',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'gamasutra',
+                                url: 'https://gamasutra.com/'
+                            },
+                        ]
+                    },
+                    {
                         message: 'nature 👍',
                         url: 'https://www.nature.com/latest-news'
                     },
@@ -358,10 +369,6 @@ var vue = new Vue({
                     {
                         message: '千万像素 petapixel',
                         url: 'https://petapixel.com/'
-                    },
-                    {
-                        message: 'gamasutra',
-                        url: 'https://gamasutra.com/'
                     },
                     {
                         message: 'cnet',
