@@ -12,6 +12,10 @@ var vue = new Vue({
                         url: 'http://www.myzaker.com/channel/13'
                     },
                     {
+                        message: '新华网',
+                        url: 'http://www.xinhuanet.com/'
+                    },
+                    {
                         message: '百度新闻',
                         url: 'https://new.qq.com/ch/tech/'
                     },
