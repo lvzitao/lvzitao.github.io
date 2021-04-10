@@ -265,6 +265,10 @@ var vue = new Vue({
                                 message: '今日美国 usatoday',
                                 url: 'https://www.usatoday.com/tech/'
                             },
+                            {
+                                message: 'aeon',
+                                url: 'https://aeon.co/science'
+                            },
                         ]
                     },
                     {
@@ -366,10 +370,6 @@ var vue = new Vue({
                     {
                         message: 'cnet',
                         url: 'https://www.cnet.com/news/'
-                    },
-                    {
-                        message: 'aeon',
-                        url: 'https://aeon.co/science'
                     },
                 ]
             },
