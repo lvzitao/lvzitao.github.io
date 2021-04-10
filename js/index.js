@@ -13,11 +13,11 @@ var vue = new Vue({
                     },
                     {
                         message: '百度新闻',
-                        url: 'https://new.qq.com/ch/tech/'
+                        url: 'http://news.baidu.com/tech'
                     },
                     {
                         message: '腾讯新闻',
-                        url: 'https://new.qq.com/'
+                        url: 'https://new.qq.com/ch/tech/'
                     },
                     {
                         message: '纽约时报中文网站',
