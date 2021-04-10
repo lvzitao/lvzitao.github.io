@@ -285,6 +285,10 @@ var vue = new Vue({
                                 message: 'sciencedirect',
                                 url: 'https://www.sciencedirect.com/'
                             },
+                            {
+                                message: 'cnet',
+                                url: 'https://www.cnet.com/news/'
+                            },
                         ]
                     },
                     {
@@ -377,10 +381,6 @@ var vue = new Vue({
                     {
                         message: '千万像素 petapixel',
                         url: 'https://petapixel.com/'
-                    },
-                    {
-                        message: 'cnet',
-                        url: 'https://www.cnet.com/news/'
                     },
                 ]
             },
