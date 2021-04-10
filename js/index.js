@@ -12,6 +12,10 @@ var vue = new Vue({
                         url: 'http://www.myzaker.com/channel/13'
                     },
                     {
+                        message: '新华网',
+                        url: 'http://www.xinhuanet.com/'
+                    },
+                    {
                         message: '百度新闻',
                         url: 'http://news.baidu.com/tech'
                     },
@@ -234,7 +238,7 @@ var vue = new Vue({
                                 url: 'https://www.wired.com/category/science/'
                             },
                             {
-                                message: '科技探索 techxplore 💤',
+                                message: '科技探索 techxplore',
                                 url: 'https://techxplore.com/'
                             },
                             {
@@ -269,15 +273,34 @@ var vue = new Vue({
                                 message: 'aeon',
                                 url: 'https://aeon.co/science'
                             },
+                            {
+                                message: '路透社 reuters',
+                                url: 'https://www.reuters.com/'
+                            },
+                            {
+                                message: 'sciencemag',
+                                url: 'https://advances.sciencemag.org/'
+                            },
+                            {
+                                message: 'sciencedirect',
+                                url: 'https://www.sciencedirect.com/'
+                            },
+                        ]
+                    },
+                    {
+                        message: '游戏',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'gamasutra',
+                                url: 'https://gamasutra.com/'
+                            },
                         ]
                     },
                     {
                         message: 'nature 👍',
                         url: 'https://www.nature.com/latest-news'
-                    },
-                    {
-                        message: '路透社 reuters',
-                        url: 'https://www.reuters.com/'
                     },
                     {
                         message: '显卡 videocardz',
@@ -352,20 +375,8 @@ var vue = new Vue({
                         url: 'https://www.wsj.com/'
                     },
                     {
-                        message: 'sciencemag',
-                        url: 'https://advances.sciencemag.org/'
-                    },
-                    {
-                        message: 'sciencedirect',
-                        url: 'https://www.sciencedirect.com/'
-                    },
-                    {
                         message: '千万像素 petapixel',
                         url: 'https://petapixel.com/'
-                    },
-                    {
-                        message: 'gamasutra',
-                        url: 'https://gamasutra.com/'
                     },
                     {
                         message: 'cnet',
