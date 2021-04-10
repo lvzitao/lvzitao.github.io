@@ -396,6 +396,10 @@ var vue = new Vue({
                         message: '中证网',
                         url: 'http://www.cs.com.cn/'
                     },
+                    {
+                        message: '英为财情',
+                        url: 'https://cn.investing.com/rates-bonds/china-10-year-bond-yield'
+                    },
                 ]
             },
             {
@@ -574,6 +578,10 @@ var vue = new Vue({
                     {
                         message: '图片压缩 iloveimg',
                         url: 'https://www.iloveimg.com/zh-cn/compress-image'
+                    },
+                    {
+                        message: '图片格式转换 jb51',
+                        url: 'http://tools.jb51.net/aideddesign/img2webp_png_jpeg'
                     },
                     {
                         message: '草料二维码',
@@ -820,6 +828,10 @@ var vue = new Vue({
                     {
                         message: '全景客 虚拟旅游',
                         url: 'https://www.quanjingke.com/'
+                    },
+                    {
+                        message: '方正字库',
+                        url: 'http://www.foundertype.com/'
                     },
                 ]
             },
