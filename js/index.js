@@ -180,10 +180,6 @@ var vue = new Vue({
                         url: 'http://zqb.cyol.com/html/2017-08/11/nbs.D110000zgqnb_01.htm'
                     },
                     {
-                        message: 'historydaily',
-                        url: 'https://historydaily.org/'
-                    },
-                    {
                         message: '南方周末',
                         url: 'http://www.infzm.com/'
                     },
@@ -288,6 +284,10 @@ var vue = new Vue({
                             {
                                 message: 'cnet',
                                 url: 'https://www.cnet.com/news/'
+                            },
+                            {
+                                message: 'historydaily',
+                                url: 'https://historydaily.org/'
                             },
                         ]
                     },
