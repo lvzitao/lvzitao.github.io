@@ -289,6 +289,10 @@ var vue = new Vue({
                                 message: 'historydaily',
                                 url: 'https://historydaily.org/'
                             },
+                            {
+                                message: '华尔街日报 wsj',
+                                url: 'https://www.wsj.com/news/technology?mod=nav_top_section'
+                            },
                         ]
                     },
                     {
@@ -305,10 +309,6 @@ var vue = new Vue({
                     {
                         message: 'nature 👍',
                         url: 'https://www.nature.com/latest-news'
-                    },
-                    {
-                        message: '显卡 videocardz',
-                        url: 'https://videocardz.com/'
                     },
                     {
                         message: 'siberiantimes 💤',
@@ -343,10 +343,6 @@ var vue = new Vue({
                         url: 'https://www.nydailynews.com/'
                     },
                     {
-                        message: '十七岁 seventeen',
-                        url: 'https://www.seventeen.com/'
-                    },
-                    {
                         message: '彭博社 bloomberg',
                         url: 'https://www.bloomberg.com/asia'
                     },
@@ -375,12 +371,16 @@ var vue = new Vue({
                         url: 'https://medium.com/'
                     },
                     {
-                        message: '华尔街日报 wsj',
-                        url: 'https://www.wsj.com/'
-                    },
-                    {
                         message: '千万像素 petapixel',
                         url: 'https://petapixel.com/'
+                    },
+                    {
+                        message: '显卡 videocardz',
+                        url: 'https://videocardz.com/'
+                    },
+                    {
+                        message: '十七岁 seventeen',
+                        url: 'https://www.seventeen.com/'
                     },
                 ]
             },
