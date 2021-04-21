@@ -1092,6 +1092,27 @@ var vue = new Vue({
                         url: 'http://219.232.200.39/uamsso/',
                     },
                 ]
+            },
+            {
+                message: '每周分享',
+                folders: [
+                    {
+                        message: '每周分享（2021年3月第1期）',
+                        url: 'https://mp.weixin.qq.com/s/7hzK33dcyTMJXssZ6eTQLw'
+                    },
+                    {
+                        message: '每周分享（2021年3月第2期）',
+                        url: 'https://mp.weixin.qq.com/s/hRN86rzCcBqmbmMhU2tFpQ'
+                    },
+                    {
+                        message: '每周分享（2021年4月第1期）',
+                        url: 'https://mp.weixin.qq.com/s/v-OZk9IDPKA4syKHXf3yAg'
+                    },
+                    {
+                        message: '每周分享（2021年4月第2期）',
+                        url: 'https://mp.weixin.qq.com/s/8UXx-Zgc9ZQAcI22pTOyaw'
+                    },
+                ]
             }
         ]
     }
