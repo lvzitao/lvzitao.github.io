@@ -8,8 +8,15 @@ var vue = new Vue({
                 message: '中文新闻',
                 folders: [
                     {
-                        message: 'myzaker 聚合',
-                        url: 'http://www.myzaker.com/channel/13'
+                        message: '科技',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'myzaker 聚合',
+                                url: 'http://www.myzaker.com/channel/13'
+                            },
+                        ]
                     },
                     {
                         message: '新华网',
