@@ -16,6 +16,10 @@ var vue = new Vue({
                                 message: 'myzaker 聚合',
                                 url: 'http://www.myzaker.com/channel/13'
                             },
+                            {
+                                message: '中国国家地理',
+                                url: 'http://www.dili360.com/'
+                            },
                         ]
                     },
                     {
