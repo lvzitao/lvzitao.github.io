@@ -190,6 +190,10 @@ var vue = new Vue({
                         message: '南方周末',
                         url: 'http://www.infzm.com/'
                     },
+                    {
+                        message: '品玩',
+                        url: 'https://www.pingwest.com/'
+                    },
 
                 ]
             },
