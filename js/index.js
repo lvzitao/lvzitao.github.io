@@ -770,6 +770,10 @@ var vue = new Vue({
                         message: '丁宇',
                         url: 'https://dingyu.me/blog/'
                     },
+                    {
+                        message: '蓝草莓的博客',
+                        url: 'http://easyhistoryus.com/'
+                    },
                 ]
             },
             {
@@ -1127,6 +1131,7 @@ var vue = new Vue({
                         message: '每周分享04（2021年4月第2期）',
                         url: 'https://mp.weixin.qq.com/s/8UXx-Zgc9ZQAcI22pTOyaw'
                     },
+                
                 ]
             }
         ]
