@@ -1131,6 +1131,10 @@ var vue = new Vue({
                         message: '每周分享04（2021年4月第2期）',
                         url: 'https://mp.weixin.qq.com/s/8UXx-Zgc9ZQAcI22pTOyaw'
                     },
+                    {
+                        message: '每周分享05（2021年4月第3期）',
+                        url: 'https://mp.weixin.qq.com/s/s3vnedr-rCqoXgvBD4csGg'
+                    },
                 
                 ]
             }
