@@ -8,7 +8,7 @@ var vue = new Vue({
                 message: '中文新闻',
                 folders: [
                     {
-                        message: '通用',
+                        message: 'pass',
                         url: '',
                         type: 'folder',
                         folders: [
@@ -44,6 +44,26 @@ var vue = new Vue({
                                 message: '观察',
                                 url: 'https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji'
                             },
+                            {
+                                message: 'ign中国',
+                                url: 'https://www.ign.com.cn/'
+                            },
+                            {
+                                message: '搜狐',
+                                url: 'https://it.sohu.com/?spm=smpc.home.top-nav.22.1617119265873c7TKrpA'
+                            },
+                            {
+                                message: 'udn',
+                                url: 'https://udn.com/'
+                            },
+                            {
+                                message: '澎湃新闻',
+                                url: 'https://www.thepaper.cn/'
+                            },
+                            {
+                                message: '中国经济网',
+                                url: 'http://www.ce.cn/'
+                            },
                         ]
                     },
                     {
@@ -58,26 +78,7 @@ var vue = new Vue({
                         message: '界面',
                         url: 'https://www.jiemian.com/'
                     },
-                    {
-                        message: '搜狐',
-                        url: 'https://it.sohu.com/?spm=smpc.home.top-nav.22.1617119265873c7TKrpA'
-                    },
-                    {
-                        message: 'ign中国',
-                        url: 'https://www.ign.com.cn/'
-                    },
-                    {
-                        message: 'udn',
-                        url: 'https://udn.com/'
-                    },
-                    {
-                        message: '澎湃新闻',
-                        url: 'https://www.thepaper.cn/'
-                    },
-                    {
-                        message: '中国经济网',
-                        url: 'http://www.ce.cn/'
-                    },
+
                     {
                         message: '环球人物',
                         url: 'http://www.globalpeople.com.cn/'
