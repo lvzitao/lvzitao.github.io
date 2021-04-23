@@ -8,7 +8,7 @@ var vue = new Vue({
                 message: '中文新闻',
                 folders: [
                     {
-                        message: '科技',
+                        message: '通用',
                         url: '',
                         type: 'folder',
                         folders: [
