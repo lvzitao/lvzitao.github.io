@@ -20,6 +20,10 @@ var vue = new Vue({
                                 message: '中国国家地理',
                                 url: 'http://www.dili360.com/'
                             },
+                            {
+                                message: '界面',
+                                url: 'https://www.jiemian.com/'
+                            },
                         ]
                     },
                     {
@@ -197,10 +201,6 @@ var vue = new Vue({
                     {
                         message: '品玩',
                         url: 'https://www.pingwest.com/'
-                    },
-                    {
-                        message: '界面',
-                        url: 'https://www.jiemian.com/'
                     },
 
                 ]
