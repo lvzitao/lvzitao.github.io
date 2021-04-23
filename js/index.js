@@ -399,7 +399,7 @@ var vue = new Vue({
                     },
                     {
                         message: 'ycombinator',
-                        url: 'https://www.ycombinator.com/'
+                        url: 'https://news.ycombinator.com/'
                     },
                 ]
             },
