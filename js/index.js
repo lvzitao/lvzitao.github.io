@@ -103,10 +103,6 @@ var vue = new Vue({
                         url: 'https://www.bbc.com/zhongwen/simp'
                     },
                     {
-                        message: 'mobile01',
-                        url: 'https://www.mobile01.com/'
-                    },
-                    {
                         message: '果壳 👍',
                         url: 'https://www.guokr.com/'
                     },
