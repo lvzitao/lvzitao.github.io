@@ -13,30 +13,30 @@ var vue = new Vue({
                         type: 'folder',
                         folders: [
                             {
-                                message: 'myzaker 聚合',
-                                url: 'http://www.myzaker.com/channel/13'
+                                message: '新华网',
+                                url: 'http://www.xinhuanet.com/'
                             },
                             {
-                                message: '中国国家地理',
-                                url: 'http://www.dili360.com/'
+                                message: '百度新闻',
+                                url: 'http://news.baidu.com/tech'
                             },
                             {
-                                message: '界面',
-                                url: 'https://www.jiemian.com/'
+                                message: '腾讯新闻',
+                                url: 'https://new.qq.com/ch/tech/'
                             },
                         ]
                     },
                     {
-                        message: '新华网',
-                        url: 'http://www.xinhuanet.com/'
+                        message: 'myzaker 聚合',
+                        url: 'http://www.myzaker.com/channel/13'
                     },
                     {
-                        message: '百度新闻',
-                        url: 'http://news.baidu.com/tech'
+                        message: '中国国家地理',
+                        url: 'http://www.dili360.com/'
                     },
                     {
-                        message: '腾讯新闻',
-                        url: 'https://new.qq.com/ch/tech/'
+                        message: '界面',
+                        url: 'https://www.jiemian.com/'
                     },
                     {
                         message: '纽约时报中文网站',
