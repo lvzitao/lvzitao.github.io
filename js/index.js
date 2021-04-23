@@ -32,6 +32,18 @@ var vue = new Vue({
                                 message: '新浪新闻',
                                 url: 'https://tech.sina.com.cn/'
                             },
+                            {
+                                message: '钛媒体',
+                                url: 'https://www.tmtpost.com/'
+                            },
+                            {
+                                message: 'tophub',
+                                url: 'https://tophub.today/'
+                            },
+                            {
+                                message: '观察',
+                                url: 'https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji'
+                            },
                         ]
                     },
                     {
@@ -45,18 +57,6 @@ var vue = new Vue({
                     {
                         message: '界面',
                         url: 'https://www.jiemian.com/'
-                    },
-                    {
-                        message: '钛媒体',
-                        url: 'https://www.tmtpost.com/'
-                    },
-                    {
-                        message: 'tophub',
-                        url: 'https://tophub.today/'
-                    },
-                    {
-                        message: '观察',
-                        url: 'https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji'
                     },
                     {
                         message: '搜狐',
