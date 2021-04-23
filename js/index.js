@@ -24,6 +24,14 @@ var vue = new Vue({
                                 message: '腾讯新闻',
                                 url: 'https://new.qq.com/ch/tech/'
                             },
+                            {
+                                message: '纽约时报中文网站',
+                                url: 'https://cn.nytimes.com/'
+                            },
+                            {
+                                message: '新浪新闻',
+                                url: 'https://tech.sina.com.cn/'
+                            },
                         ]
                     },
                     {
@@ -37,14 +45,6 @@ var vue = new Vue({
                     {
                         message: '界面',
                         url: 'https://www.jiemian.com/'
-                    },
-                    {
-                        message: '纽约时报中文网站',
-                        url: 'https://cn.nytimes.com/'
-                    },
-                    {
-                        message: '新浪新闻',
-                        url: 'https://tech.sina.com.cn/'
                     },
                     {
                         message: '钛媒体',
