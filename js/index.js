@@ -8,71 +8,75 @@ var vue = new Vue({
                 message: '中文新闻',
                 folders: [
                     {
-                        message: '科技',
+                        message: 'pass',
                         url: '',
                         type: 'folder',
                         folders: [
                             {
-                                message: 'myzaker 聚合',
-                                url: 'http://www.myzaker.com/channel/13'
+                                message: '新华网',
+                                url: 'http://www.xinhuanet.com/'
                             },
                             {
-                                message: '中国国家地理',
-                                url: 'http://www.dili360.com/'
+                                message: '百度新闻',
+                                url: 'http://news.baidu.com/tech'
+                            },
+                            {
+                                message: '腾讯新闻',
+                                url: 'https://new.qq.com/ch/tech/'
+                            },
+                            {
+                                message: '纽约时报中文网站',
+                                url: 'https://cn.nytimes.com/'
+                            },
+                            {
+                                message: '新浪新闻',
+                                url: 'https://tech.sina.com.cn/'
+                            },
+                            {
+                                message: '钛媒体',
+                                url: 'https://www.tmtpost.com/'
+                            },
+                            {
+                                message: 'tophub',
+                                url: 'https://tophub.today/'
+                            },
+                            {
+                                message: '观察',
+                                url: 'https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji'
+                            },
+                            {
+                                message: 'ign中国',
+                                url: 'https://www.ign.com.cn/'
+                            },
+                            {
+                                message: '搜狐',
+                                url: 'https://it.sohu.com/?spm=smpc.home.top-nav.22.1617119265873c7TKrpA'
+                            },
+                            {
+                                message: 'udn',
+                                url: 'https://udn.com/'
+                            },
+                            {
+                                message: '澎湃新闻',
+                                url: 'https://www.thepaper.cn/'
+                            },
+                            {
+                                message: '中国经济网',
+                                url: 'http://www.ce.cn/'
                             },
                         ]
                     },
                     {
-                        message: '新华网',
-                        url: 'http://www.xinhuanet.com/'
+                        message: 'myzaker 聚合',
+                        url: 'http://www.myzaker.com/channel/13'
                     },
                     {
-                        message: '百度新闻',
-                        url: 'http://news.baidu.com/tech'
+                        message: '中国国家地理',
+                        url: 'http://www.dili360.com/'
                     },
                     {
-                        message: '腾讯新闻',
-                        url: 'https://new.qq.com/ch/tech/'
-                    },
-                    {
-                        message: '纽约时报中文网站',
-                        url: 'https://cn.nytimes.com/'
-                    },
-                    {
-                        message: '新浪新闻',
-                        url: 'https://tech.sina.com.cn/'
-                    },
-                    {
-                        message: '钛媒体',
-                        url: 'https://www.tmtpost.com/'
-                    },
-                    {
-                        message: 'tophub',
-                        url: 'https://tophub.today/'
-                    },
-                    {
-                        message: '观察',
-                        url: 'https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji'
-                    },
-                    {
-                        message: '搜狐',
-                        url: 'https://it.sohu.com/?spm=smpc.home.top-nav.22.1617119265873c7TKrpA'
-                    },
-                    {
-                        message: 'ign中国',
-                        url: 'https://www.ign.com.cn/'
-                    },
-                    {
-                        message: 'udn',
-                        url: 'https://udn.com/'
-                    },
-                    {
-                        message: '澎湃新闻',
-                        url: 'https://www.thepaper.cn/'
-                    },
-                    {
-                        message: '中国经济网',
-                        url: 'http://www.ce.cn/'
+                        message: '界面',
+                        url: 'https://www.jiemian.com/'
                     },
                     {
                         message: '环球人物',
@@ -97,10 +101,6 @@ var vue = new Vue({
                     {
                         message: 'BBC中文（英国广播公司）',
                         url: 'https://www.bbc.com/zhongwen/simp'
-                    },
-                    {
-                        message: 'mobile01',
-                        url: 'https://www.mobile01.com/'
                     },
                     {
                         message: '果壳 👍',
@@ -232,7 +232,7 @@ var vue = new Vue({
                         ]
                     },
                     {
-                        message: '科技',
+                        message: 'pass',
                         url: '',
                         type: 'folder',
                         folders: [
@@ -241,72 +241,12 @@ var vue = new Vue({
                                 url: 'https://www.sciencefocus.com/'
                             },
                             {
-                                message: '聚合 flipboard 👍',
-                                url: 'https://flipboard.com/'
+                                message: '显卡 videocardz',
+                                url: 'https://videocardz.com/'
                             },
                             {
-                                message: '连线 wired',
-                                url: 'https://www.wired.com/category/science/'
-                            },
-                            {
-                                message: '科技探索 techxplore',
-                                url: 'https://techxplore.com/'
-                            },
-                            {
-                                message: 'theverge',
-                                url: 'https://www.theverge.com/'
-                            },
-                            {
-                                message: 'mymodernmet',
-                                url: 'https://mymodernmet.com/category/technology/'
-                            },
-                            {
-                                message: '英国广播公司 bbc',
-                                url: 'https://www.bbc.com/news/technology'
-                            },
-                            {
-                                message: 'techradar',
-                                url: 'https://www.techradar.com/'
-                            },
-                            {
-                                message: 'theregister',
-                                url: 'https://www.theregister.com/'
-                            },
-                            {
-                                message: '纽约时报 nytimes',
-                                url: 'https://www.nytimes.com/section/technology'
-                            },
-                            {
-                                message: '今日美国 usatoday',
-                                url: 'https://www.usatoday.com/tech/'
-                            },
-                            {
-                                message: 'aeon',
-                                url: 'https://aeon.co/science'
-                            },
-                            {
-                                message: '路透社 reuters',
-                                url: 'https://www.reuters.com/'
-                            },
-                            {
-                                message: 'sciencemag',
-                                url: 'https://advances.sciencemag.org/'
-                            },
-                            {
-                                message: 'sciencedirect',
-                                url: 'https://www.sciencedirect.com/'
-                            },
-                            {
-                                message: 'cnet',
-                                url: 'https://www.cnet.com/news/'
-                            },
-                            {
-                                message: 'historydaily',
-                                url: 'https://historydaily.org/'
-                            },
-                            {
-                                message: '华尔街日报 wsj',
-                                url: 'https://www.wsj.com/news/technology?mod=nav_top_section'
+                                message: '十七岁 seventeen',
+                                url: 'https://www.seventeen.com/'
                             },
                         ]
                     },
@@ -320,6 +260,74 @@ var vue = new Vue({
                                 url: 'https://gamasutra.com/'
                             },
                         ]
+                    },
+                    {
+                        message: '聚合 flipboard 👍',
+                        url: 'https://flipboard.com/'
+                    },
+                    {
+                        message: '连线 wired 👍',
+                        url: 'https://www.wired.com/category/science/'
+                    },
+                    {
+                        message: '科技探索 techxplore',
+                        url: 'https://techxplore.com/'
+                    },
+                    {
+                        message: 'theverge',
+                        url: 'https://www.theverge.com/'
+                    },
+                    {
+                        message: 'mymodernmet',
+                        url: 'https://mymodernmet.com/category/technology/'
+                    },
+                    {
+                        message: '英国广播公司 bbc',
+                        url: 'https://www.bbc.com/news/technology'
+                    },
+                    {
+                        message: 'techradar',
+                        url: 'https://www.techradar.com/'
+                    },
+                    {
+                        message: 'theregister',
+                        url: 'https://www.theregister.com/'
+                    },
+                    {
+                        message: '纽约时报 nytimes',
+                        url: 'https://www.nytimes.com/section/technology'
+                    },
+                    {
+                        message: '今日美国 usatoday',
+                        url: 'https://www.usatoday.com/tech/'
+                    },
+                    {
+                        message: 'aeon',
+                        url: 'https://aeon.co/science'
+                    },
+                    {
+                        message: '路透社 reuters',
+                        url: 'https://www.reuters.com/'
+                    },
+                    {
+                        message: 'sciencemag',
+                        url: 'https://advances.sciencemag.org/'
+                    },
+                    {
+                        message: 'sciencedirect',
+                        url: 'https://www.sciencedirect.com/'
+                    },
+                    {
+                        message: 'cnet',
+                        url: 'https://www.cnet.com/news/'
+                    },
+                    {
+                        message: 'historydaily',
+                        url: 'https://historydaily.org/'
+                    },
+                    {
+                        message: '华尔街日报 wsj',
+                        url: 'https://www.wsj.com/news/technology?mod=nav_top_section'
                     },
                     {
                         message: 'nature 👍',
@@ -390,12 +398,8 @@ var vue = new Vue({
                         url: 'https://petapixel.com/'
                     },
                     {
-                        message: '显卡 videocardz',
-                        url: 'https://videocardz.com/'
-                    },
-                    {
-                        message: '十七岁 seventeen',
-                        url: 'https://www.seventeen.com/'
+                        message: 'ycombinator',
+                        url: 'https://news.ycombinator.com/'
                     },
                 ]
             },
