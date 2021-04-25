@@ -205,17 +205,6 @@ var vue = new Vue({
                 message: '英文新闻',
                 folders: [
                     {
-                        message: '游戏',
-                        url: '',
-                        type: 'folder',
-                        folders: [
-                            {
-                                message: 'gamasutra',
-                                url: 'https://gamasutra.com/'
-                            },
-                        ]
-                    },
-                    {
                         message: '聚合 flipboard 👍',
                         url: 'https://flipboard.com/'
                     },
