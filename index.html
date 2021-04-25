@@ -16,7 +16,6 @@
             <li v-for="item in items" class="commonLi">
                 <img class="commonImg" src="https://blog-to-use.oss-cn-beijing.aliyuncs.com/202102/folder.gif"></img>
                 <a id="commonLink" href="javascript:;" onclick="clickFolder(this)">{{ item.message }}</a>
-                
                 <ul class="menu" style="display: none;">
                     <li v-for="folder in item.folders" style="list-style: none;">
                         <div v-if="folder.type === 'folder'">
