@@ -205,52 +205,6 @@ var vue = new Vue({
                 message: '英文新闻',
                 folders: [
                     {
-                        message: '社交',
-                        url: '',
-                        type: 'folder',
-                        folders: [
-                            {
-                                message: 'twitter',
-                                url: 'https://twitter.com/home'
-                            },
-                            {
-                                message: 'facebook',
-                                url: 'https://www.facebook.com/'
-                            },
-                            {
-                                message: 'twitch',
-                                url: 'https://www.twitch.tv/'
-                            },
-                            {
-                                message: 'youtube',
-                                url: 'https://www.youtube.com/'
-                            },
-                            {
-                                message: 'instagram',
-                                url: 'https://www.instagram.com/'
-                            },
-                        ]
-                    },
-                    {
-                        message: 'pass',
-                        url: '',
-                        type: 'folder',
-                        folders: [
-                            {
-                                message: 'sciencefocus',
-                                url: 'https://www.sciencefocus.com/'
-                            },
-                            {
-                                message: '显卡 videocardz',
-                                url: 'https://videocardz.com/'
-                            },
-                            {
-                                message: '十七岁 seventeen',
-                                url: 'https://www.seventeen.com/'
-                            },
-                        ]
-                    },
-                    {
                         message: '游戏',
                         url: '',
                         type: 'folder',
