@@ -157,11 +157,11 @@ var vue = new Vue({
                 message: '英文新闻',
                 folders: [
                     {
-                        message: '聚合 flipboard 👍',
+                        message: '聚合 flipboard',
                         url: 'https://flipboard.com/'
                     },
                     {
-                        message: '连线 wired 👍',
+                        message: '连线 wired',
                         url: 'https://www.wired.com/category/science/'
                     },
                     {
