@@ -7,65 +7,17 @@ var vue = new Vue({
             {
                 message: '中文新闻',
                 folders: [
-                    {
-                        message: 'pass',
-                        url: '',
-                        type: 'folder',
-                        folders: [
-                            {
-                                message: '新华网',
-                                url: 'http://www.xinhuanet.com/'
-                            },
-                            {
-                                message: '百度新闻',
-                                url: 'http://news.baidu.com/tech'
-                            },
-                            {
-                                message: '腾讯新闻',
-                                url: 'https://new.qq.com/ch/tech/'
-                            },
-                            {
-                                message: '纽约时报中文网站',
-                                url: 'https://cn.nytimes.com/'
-                            },
-                            {
-                                message: '新浪新闻',
-                                url: 'https://tech.sina.com.cn/'
-                            },
-                            {
-                                message: '钛媒体',
-                                url: 'https://www.tmtpost.com/'
-                            },
-                            {
-                                message: 'tophub',
-                                url: 'https://tophub.today/'
-                            },
-                            {
-                                message: '观察',
-                                url: 'https://www.guancha.cn/gongye%C2%B7keji?s=dhgongye%C2%B7keji'
-                            },
-                            {
-                                message: 'ign中国',
-                                url: 'https://www.ign.com.cn/'
-                            },
-                            {
-                                message: '搜狐',
-                                url: 'https://it.sohu.com/?spm=smpc.home.top-nav.22.1617119265873c7TKrpA'
-                            },
-                            {
-                                message: 'udn',
-                                url: 'https://udn.com/'
-                            },
-                            {
-                                message: '澎湃新闻',
-                                url: 'https://www.thepaper.cn/'
-                            },
-                            {
-                                message: '中国经济网',
-                                url: 'http://www.ce.cn/'
-                            },
-                        ]
-                    },
+                    // {
+                    //     message: 'pass',
+                    //     url: '',
+                    //     type: 'folder',
+                    //     folders: [
+                    //         {
+                    //             message: '新华网',
+                    //             url: 'http://www.xinhuanet.com/'
+                    //         }
+                    //     ]
+                    // },
                     {
                         message: 'myzaker 聚合',
                         url: 'http://www.myzaker.com/channel/13'
@@ -103,7 +55,7 @@ var vue = new Vue({
                         url: 'https://www.bbc.com/zhongwen/simp'
                     },
                     {
-                        message: '果壳 👍',
+                        message: '果壳',
                         url: 'https://www.guokr.com/'
                     },
                     {
