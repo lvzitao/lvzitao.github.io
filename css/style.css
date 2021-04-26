@@ -67,4 +67,8 @@ hr {
     margin-bottom: 15px;
 }
 
+.iconClass {
+    border-radius: 50%;
+}
+
 /* ===== 自定义样式 ===== */
