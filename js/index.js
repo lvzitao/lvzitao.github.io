@@ -289,10 +289,6 @@ var vue = new Vue({
                         url: 'https://medium.com/'
                     },
                     {
-                        message: '千万像素 petapixel',
-                        url: 'https://petapixel.com/'
-                    },
-                    {
                         message: 'ycombinator',
                         url: 'https://news.ycombinator.com/'
                     },
