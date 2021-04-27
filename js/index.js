@@ -449,6 +449,26 @@ var vue = new Vue({
                                 message: 'Aliyun ons',
                                 url: 'https://help.aliyun.com/document_detail/49323.html?spm=a2c4g.11186623.6.604.3b4a375dLle9v2'
                             },
+                            {
+                                message: 'Kafka',
+                                url: 'http://kafka.apache.org/documentation/#gettingStarted'
+                            },
+                            {
+                                message: 'Kafka Improvement Proposals',
+                                url: 'http://cwiki.apache.org/confluence/display/KAFKA/Kafka+Improvement+Proposals'
+                            },
+                            {
+                                message: '消息队列设计论文',
+                                url: 'https://engineering.linkedin.com/distributed-systems/log-what-every-software-engineer-should-know-about-real-time-datas-unifying'
+                            },
+                            {
+                                message: '消息队列设计论文（中文）',
+                                url: 'https://www.kancloud.cn/kancloud/log-real-time-datas-unifying/58708'
+                            },
+                            {
+                                message: 'Confluo',
+                                url: 'https://www.usenix.org/conference/nsdi19/presentation/khandelwal'
+                            },
                         ]
                     },
                     {
