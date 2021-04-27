@@ -233,10 +233,6 @@ var vue = new Vue({
                         url: 'https://siberiantimes.com/home/'
                     },
                     {
-                        message: 'google news',
-                        url: 'https://news.google.com/'
-                    },
-                    {
                         message: '美国有线电视新闻网 cnn',
                         url: 'https://edition.cnn.com/'
                     },
@@ -261,32 +257,12 @@ var vue = new Vue({
                         url: 'https://www.nydailynews.com/'
                     },
                     {
-                        message: '彭博社 bloomberg',
-                        url: 'https://www.bloomberg.com/asia'
-                    },
-                    {
                         message: '澳大利亚广播公司 abc',
-                        url: 'https://www.abc.net.au/news/'
+                        url: 'https://www.abc.net.au/news/topic/science-and-technology'
                     },
                     {
                         message: 'buzzfeed 💤',
                         url: 'https://www.buzzfeed.com/'
-                    },
-                    {
-                        message: 'interconnected',
-                        url: 'https://interconnected.blog/'
-                    },
-                    {
-                        message: 'leung-btc medium',
-                        url: 'https://leung-btc.medium.com/'
-                    },
-                    {
-                        message: 'cjr',
-                        url: 'https://www.cjr.org/'
-                    },
-                    {
-                        message: 'medium',
-                        url: 'https://medium.com/'
                     },
                     {
                         message: 'ycombinator',
@@ -623,6 +599,15 @@ var vue = new Vue({
                         message: '秀米排版',
                         url: 'https://xiumi.us/studio/v5#/paper/for/new/cube/0'
                     },
+                    {
+                        message: 'wxformat',
+                        url: 'https://lab.lyric.im/wxformat/'
+                    },
+                    {
+                        message: 'mdnice',
+                        url: 'https://editor.mdnice.com/'
+                    },
+
                 ]
             },
             {
