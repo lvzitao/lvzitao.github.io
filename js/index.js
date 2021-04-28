@@ -209,10 +209,6 @@ var vue = new Vue({
                         url: 'https://advances.sciencemag.org/'
                     },
                     {
-                        message: 'sciencedirect',
-                        url: 'https://www.sciencedirect.com/'
-                    },
-                    {
                         message: 'cnet',
                         url: 'https://www.cnet.com/news/'
                     },
@@ -225,7 +221,7 @@ var vue = new Vue({
                         url: 'https://www.wsj.com/news/technology?mod=nav_top_section'
                     },
                     {
-                        message: 'nature 👍',
+                        message: 'nature',
                         url: 'https://www.nature.com/latest-news'
                     },
                     {
