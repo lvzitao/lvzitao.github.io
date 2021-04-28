@@ -205,10 +205,6 @@ var vue = new Vue({
                         url: 'https://www.reuters.com/'
                     },
                     {
-                        message: 'sciencemag',
-                        url: 'https://advances.sciencemag.org/'
-                    },
-                    {
                         message: 'cnet',
                         url: 'https://www.cnet.com/news/'
                     },
