@@ -234,7 +234,7 @@ var vue = new Vue({
                     },
                     {
                         message: '美国有线电视新闻网 cnn',
-                        url: 'https://edition.cnn.com/'
+                        url: 'https://edition.cnn.com/business/tech'
                     },
                     {
                         message: '国家地理 nationalgeographic',
