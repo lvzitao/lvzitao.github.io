@@ -673,6 +673,10 @@ var vue = new Vue({
                         message: 'mdnice',
                         url: 'https://editor.mdnice.com/'
                     },
+                    {
+                        message: 'aclickall 颜家大少',
+                        url: 'http://md.aclickall.com/'
+                    },
 
                 ]
             },
