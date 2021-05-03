@@ -157,40 +157,20 @@ var vue = new Vue({
                 message: '英文新闻',
                 folders: [
                     {
+                        message: 'innoreader',
+                        url: 'https://www.innoreader.com/'
+                    },
+                    {
                         message: '聚合 flipboard',
                         url: 'https://flipboard.com/'
-                    },
-                    {
-                        message: '连线 wired',
-                        url: 'https://www.wired.com/category/science/'
-                    },
-                    {
-                        message: '科技探索 techxplore',
-                        url: 'https://techxplore.com/'
-                    },
-                    {
-                        message: 'theverge',
-                        url: 'https://www.theverge.com/'
                     },
                     {
                         message: 'mymodernmet',
                         url: 'https://mymodernmet.com/category/technology/'
                     },
                     {
-                        message: '英国广播公司 bbc',
-                        url: 'https://www.bbc.com/news/technology'
-                    },
-                    {
                         message: 'techradar',
                         url: 'https://www.techradar.com/'
-                    },
-                    {
-                        message: 'theregister',
-                        url: 'https://www.theregister.com/'
-                    },
-                    {
-                        message: '纽约时报 nytimes',
-                        url: 'https://www.nytimes.com/section/technology'
                     },
                     {
                         message: '今日美国 usatoday',
@@ -203,10 +183,6 @@ var vue = new Vue({
                     {
                         message: '路透社 reuters',
                         url: 'https://www.reuters.com/'
-                    },
-                    {
-                        message: 'cnet',
-                        url: 'https://www.cnet.com/news/'
                     },
                     {
                         message: 'historydaily',
@@ -255,10 +231,6 @@ var vue = new Vue({
                     {
                         message: 'buzzfeed 💤',
                         url: 'https://www.buzzfeed.com/'
-                    },
-                    {
-                        message: 'ycombinator',
-                        url: 'https://news.ycombinator.com/'
                     },
                 ]
             },
