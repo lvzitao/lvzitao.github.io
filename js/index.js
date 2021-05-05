@@ -226,6 +226,10 @@ var vue = new Vue({
                         message: 'ECMAScript6简介',
                         url: 'https://wangdoc.com/es6/intro.html'
                     },
+                    {
+                        message: 'Java教程 廖雪峰',
+                        url: 'https://www.liaoxuefeng.com/wiki/1252599548343744'
+                    },
                 ]
             },
             {
