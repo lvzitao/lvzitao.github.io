@@ -218,6 +218,10 @@ var vue = new Vue({
                         message: 'Python100天之旅',
                         url: 'https://learnbyexample.github.io/100_page_python_intro/introduction.html'
                     },
+                    {
+                        message: 'ECMAScript6入门',
+                        url: 'https://es6.ruanyifeng.com/#docs/async'
+                    },
                 ]
             },
             {
