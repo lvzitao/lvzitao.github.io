@@ -356,6 +356,15 @@ var vue = new Vue({
                     },
                 
                 ]
+            },
+            {
+                message: '鸽子读过的书',
+                folders: [
+                    {
+                        message: '读书使人进步',
+                        url: 'https://github.com/pigeonread/books'
+                    }
+                ]
             }
         ]
     }
