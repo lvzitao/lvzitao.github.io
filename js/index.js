@@ -196,6 +196,10 @@ var vue = new Vue({
                         message: 'java11 Doc',
                         url: 'https://www.apiref.com/java11-zh/index.html'
                     },
+                    {
+                        message: 'Java Community Process',
+                        url: 'https://jcp.org/en/home/index'
+                    },
 
                 ]
             },
