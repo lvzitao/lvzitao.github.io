@@ -61,10 +61,6 @@ var vue = new Vue({
                                 url: 'https://wangdoc.com/es6/intro.html'
                             },
                             {
-                                message: 'ES6入门教程阮一峰',
-                                url: 'https://es6.ruanyifeng.com/'
-                            },
-                            {
                                 message: 'Javascript教程',
                                 url: 'https://wangdoc.com/javascript/'
                             },
@@ -221,6 +217,10 @@ var vue = new Vue({
                     {
                         message: 'ECMAScript6入门',
                         url: 'https://es6.ruanyifeng.com/#docs/async'
+                    },
+                    {
+                        message: 'ECMAScript6简介',
+                        url: 'https://wangdoc.com/es6/intro.html'
                     },
                 ]
             },
