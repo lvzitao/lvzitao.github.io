@@ -358,7 +358,7 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '鸽子读过的书',
+                message: '读过的书',
                 folders: [
                     {
                         message: '读书使人进步',
