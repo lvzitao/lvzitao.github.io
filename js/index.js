@@ -173,34 +173,54 @@ var vue = new Vue({
                         ]
                     },
                     {
-                        message: 'Hutool',
-                        url: 'https://hutool.cn/docs/#/'
+                        message: '工具集',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'Hutool',
+                                url: 'https://hutool.cn/docs/#/'
+                            },
+                        ]
+                    },
+                    {
+                        message: 'Java',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'Java11 Doc',
+                                url: 'https://www.apiref.com/java11-zh/index.html'
+                            },
+                            {
+                                message: 'Java Community Process',
+                                url: 'https://jcp.org/en/home/index'
+                            },
+                            {
+                                message: 'JavaGuide',
+                                url: 'https://github.com/Snailclimb/JavaGuide'
+                            },
+                            {
+                                message: 'CS Notes',
+                                url: 'https://github.com/CyC2018/CS-Notes'
+                            },
+                        ]
+                    },
+                    {
+                        message: '数据库',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'MySQL',
+                                url: 'https://www.mysql.com/'
+                            },
+                        ]
                     },
                     {
                         message: 'Git',
                         url: 'https://git-scm.com/book/zh/v2'
                     },
-                    {
-                        message: 'MySQL',
-                        url: 'https://www.mysql.com/'
-                    },
-                    {
-                        message: 'JavaGuide',
-                        url: 'https://github.com/Snailclimb/JavaGuide'
-                    },
-                    {
-                        message: 'CS Note',
-                        url: 'https://github.com/CyC2018/CS-Notes'
-                    },
-                    {
-                        message: 'java11 Doc',
-                        url: 'https://www.apiref.com/java11-zh/index.html'
-                    },
-                    {
-                        message: 'Java Community Process',
-                        url: 'https://jcp.org/en/home/index'
-                    },
-
                 ]
             },
             {
