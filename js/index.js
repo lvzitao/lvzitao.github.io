@@ -299,39 +299,6 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '个人博客',
-                folders: [
-                    {
-                        message: 'soynomm',
-                        url: 'https://soynomm.com/'
-                    },
-                    {
-                        message: '阿虚同学',
-                        url: 'https://axutongxue.com/'
-                    },
-                    {
-                        message: '阮一峰',
-                        url: 'http://ruanyifeng.com/'
-                    },
-                    {
-                        message: 'Git 剑指 offer 题解',
-                        url: 'https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%89%91%E6%8C%87%20Offer%20%E9%A2%98%E8%A7%A3%20-%20%E7%9B%AE%E5%BD%95.md'
-                    },
-                    {
-                        message: 'Git JavaGuide',
-                        url: 'https://github.com/Snailclimb/JavaGuide'
-                    },
-                    {
-                        message: '丁宇',
-                        url: 'https://dingyu.me/blog/'
-                    },
-                    {
-                        message: '蓝草莓的博客',
-                        url: 'http://easyhistoryus.com/'
-                    },
-                ]
-            },
-            {
                 message: '影视资源',
                 folders: [
                     {
@@ -380,18 +347,6 @@ var vue = new Vue({
                                 url: 'https://www.ixigua.com/channel/jilupian/'
                             },
                         ]
-                    },
-                    {
-                        message: '麻瓜影院',
-                        url: 'http://maguays.cc/'
-                    },
-                    {
-                        message: '小嘀咕影院',
-                        url: 'http://m.xdg456.com/'
-                    },
-                    {
-                        message: '宅看影视',
-                        url: 'https://www.zhaikanys.com/'
                     },
                 ]
             },
