@@ -189,12 +189,40 @@ var vue = new Vue({
                         type: 'folder',
                         folders: [
                             {
-                                message: 'Java11 Doc',
-                                url: 'https://www.apiref.com/java11-zh/index.html'
+                                message: 'Java7 Doc',
+                                url: 'https://docs.oracle.com/javase/7/docs/api/index.html'
                             },
                             {
                                 message: 'Java8 Doc',
                                 url: 'https://docs.oracle.com/javase/8/docs/api/'
+                            },
+                            {
+                                message: 'Java9 Doc',
+                                url: 'https://docs.oracle.com/javase/9/docs/api/overview-summary.html'
+                            },
+                            {
+                                message: 'Java10 Doc',
+                                url: 'https://docs.oracle.com/javase/10/docs/api/overview-summary.html'
+                            },
+                            {
+                                message: 'Java11 Doc',
+                                url: 'https://docs.oracle.com/en/java/javase/11/docs/api/index.html'
+                            },
+                            {
+                                message: 'Java12 Doc',
+                                url: 'https://docs.oracle.com/en/java/javase/12/docs/api/index.html'
+                            },
+                            {
+                                message: 'Java13 Doc',
+                                url: 'https://docs.oracle.com/en/java/javase/13/docs/api/index.html'
+                            },
+                            {
+                                message: 'Java14 Doc',
+                                url: 'https://docs.oracle.com/en/java/javase/14/docs/api/index.html'
+                            },
+                            {
+                                message: 'Java15 Doc',
+                                url: 'https://docs.oracle.com/en/java/javase/15/docs/api/index.html'
                             },
                             {
                                 message: 'Java Community Process',
