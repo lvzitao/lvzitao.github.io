@@ -1,6 +1,9 @@
 /* ===== 自定义样式 ===== */
-#contents {
+body {
     background-color: #fbf1d0;
+}
+
+#contents {
     border: 1px solid black;
     width: 100%;
     height: 800px;
