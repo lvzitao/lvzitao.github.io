@@ -250,6 +250,17 @@ var vue = new Vue({
                         ]
                     },
                     {
+                        message: '算法',
+                        url: '',
+                        type: 'folder',
+                        folders: [
+                            {
+                                message: 'doocs leetcode',
+                                url: 'https://doocs.gitee.io/#/README_CN'
+                            },
+                        ]
+                    },
+                    {
                         message: 'Git',
                         url: 'https://git-scm.com/book/zh/v2'
                     },
