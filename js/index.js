@@ -181,6 +181,10 @@ var vue = new Vue({
                                 message: 'Hutool',
                                 url: 'https://hutool.cn/docs/#/'
                             },
+                            {
+                                message: 'java-decompiler',
+                                url: 'http://java-decompiler.github.io/'
+                            },
                         ]
                     },
                     {
