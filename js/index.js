@@ -436,15 +436,6 @@ var vue = new Vue({
                     },
                 
                 ]
-            },
-            {
-                message: '已读书籍',
-                folders: [
-                    {
-                        message: '读书使人进步',
-                        url: 'https://github.com/pigeonread/books'
-                    }
-                ]
             }
         ]
     }
