@@ -297,6 +297,10 @@ var vue = new Vue({
                         message: 'Java教程 廖雪峰',
                         url: 'https://www.liaoxuefeng.com/wiki/1252599548343744'
                     },
+                    {
+                        message: '深入浅出Java多线程',
+                        url: 'https://redspider.gitbook.io/concurrent/'
+                    },
                 ]
             },
             {
