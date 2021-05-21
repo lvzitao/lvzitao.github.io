@@ -5,6 +5,44 @@ var vue = new Vue({
     data: {
         items: [
             {
+                message: '每周分享',
+                folders: [
+                    {
+                        message: '每周分享01（2021年3月第1期）',
+                        url: 'https://mp.weixin.qq.com/s/7hzK33dcyTMJXssZ6eTQLw'
+                    },
+                    {
+                        message: '每周分享02（2021年3月第2期）',
+                        url: 'https://mp.weixin.qq.com/s/hRN86rzCcBqmbmMhU2tFpQ'
+                    },
+                    {
+                        message: '每周分享03（2021年4月第1期）',
+                        url: 'https://mp.weixin.qq.com/s/v-OZk9IDPKA4syKHXf3yAg'
+                    },
+                    {
+                        message: '每周分享04（2021年4月第2期）',
+                        url: 'https://mp.weixin.qq.com/s/8UXx-Zgc9ZQAcI22pTOyaw'
+                    },
+                    {
+                        message: '每周分享05（2021年4月第3期）',
+                        url: 'https://mp.weixin.qq.com/s/s3vnedr-rCqoXgvBD4csGg'
+                    },
+                    {
+                        message: '每周分享06（2021年4月第4期）',
+                        url: 'https://mp.weixin.qq.com/s/6ZjQ2EGVaw7WuBPiSBOj4g'
+                    },
+                    {
+                        message: '每周分享07（2021年5月第1期）',
+                        url: 'https://mp.weixin.qq.com/s/SCni3VizeSvtjUdaAYxDqA'
+                    },
+                    {
+                        message: '每周分享08（2021年5月第2期）',
+                        url: 'https://mp.weixin.qq.com/s/f4tRSMluPQlx6elxoqSi3Q'
+                    },
+
+                ]
+            },
+            {
                 message: '技术文档',
                 folders: [
                     {
@@ -393,44 +431,6 @@ var vue = new Vue({
                     },
                 ]
             },
-            {
-                message: '每周分享',
-                folders: [
-                    {
-                        message: '每周分享01（2021年3月第1期）',
-                        url: 'https://mp.weixin.qq.com/s/7hzK33dcyTMJXssZ6eTQLw'
-                    },
-                    {
-                        message: '每周分享02（2021年3月第2期）',
-                        url: 'https://mp.weixin.qq.com/s/hRN86rzCcBqmbmMhU2tFpQ'
-                    },
-                    {
-                        message: '每周分享03（2021年4月第1期）',
-                        url: 'https://mp.weixin.qq.com/s/v-OZk9IDPKA4syKHXf3yAg'
-                    },
-                    {
-                        message: '每周分享04（2021年4月第2期）',
-                        url: 'https://mp.weixin.qq.com/s/8UXx-Zgc9ZQAcI22pTOyaw'
-                    },
-                    {
-                        message: '每周分享05（2021年4月第3期）',
-                        url: 'https://mp.weixin.qq.com/s/s3vnedr-rCqoXgvBD4csGg'
-                    },
-                    {
-                        message: '每周分享06（2021年4月第4期）',
-                        url: 'https://mp.weixin.qq.com/s/6ZjQ2EGVaw7WuBPiSBOj4g'
-                    },
-                    {
-                        message: '每周分享07（2021年5月第1期）',
-                        url: 'https://mp.weixin.qq.com/s/SCni3VizeSvtjUdaAYxDqA'
-                    },
-                    {
-                        message: '每周分享08（2021年5月第2期）',
-                        url: 'https://mp.weixin.qq.com/s/f4tRSMluPQlx6elxoqSi3Q'
-                    },
-                
-                ]
-            }
         ]
     }
 });
