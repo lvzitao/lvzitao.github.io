@@ -369,19 +369,6 @@ var vue = new Vue({
                 ]
             },
             {
-                message: '学习网站',
-                folders: [
-                    {
-                        message: '网易公开课',
-                        url: 'https://open.163.com/'
-                    },
-                    {
-                        message: '微信读书',
-                        url: 'https://weread.qq.com/'
-                    }
-                ]
-            },
-            {
                 message: '免费资源',
                 folders: [
                     {
