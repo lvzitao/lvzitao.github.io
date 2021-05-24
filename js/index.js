@@ -39,6 +39,10 @@ var vue = new Vue({
                         message: '每周分享08（2021年5月第2期）',
                         url: 'https://mp.weixin.qq.com/s/f4tRSMluPQlx6elxoqSi3Q'
                     },
+                    {
+                        message: '每周分享09（2021年5月第3期）',
+                        url: 'https://mp.weixin.qq.com/s?__biz=MzIyNjYxNTk2MQ==&mid=2247484999&idx=1&sn=a0771f7c1ce582b08f204fd1768f7fd8&chksm=e86cf1b1df1b78a7a85aa912d04405e85331eec6308194dd22002cf93f47bc187ce5345eae53&token=1430568898&lang=zh_CN#rd'
+                    },
 
                 ]
             },
