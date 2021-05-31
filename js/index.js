@@ -5,48 +5,6 @@ var vue = new Vue({
     data: {
         items: [
             {
-                message: '每周分享',
-                folders: [
-                    {
-                        message: '每周分享01（2021年3月第1期）',
-                        url: 'https://mp.weixin.qq.com/s/7hzK33dcyTMJXssZ6eTQLw'
-                    },
-                    {
-                        message: '每周分享02（2021年3月第2期）',
-                        url: 'https://mp.weixin.qq.com/s/hRN86rzCcBqmbmMhU2tFpQ'
-                    },
-                    {
-                        message: '每周分享03（2021年4月第1期）',
-                        url: 'https://mp.weixin.qq.com/s/v-OZk9IDPKA4syKHXf3yAg'
-                    },
-                    {
-                        message: '每周分享04（2021年4月第2期）',
-                        url: 'https://mp.weixin.qq.com/s/8UXx-Zgc9ZQAcI22pTOyaw'
-                    },
-                    {
-                        message: '每周分享05（2021年4月第3期）',
-                        url: 'https://mp.weixin.qq.com/s/s3vnedr-rCqoXgvBD4csGg'
-                    },
-                    {
-                        message: '每周分享06（2021年4月第4期）',
-                        url: 'https://mp.weixin.qq.com/s/6ZjQ2EGVaw7WuBPiSBOj4g'
-                    },
-                    {
-                        message: '每周分享07（2021年5月第1期）',
-                        url: 'https://mp.weixin.qq.com/s/SCni3VizeSvtjUdaAYxDqA'
-                    },
-                    {
-                        message: '每周分享08（2021年5月第2期）',
-                        url: 'https://mp.weixin.qq.com/s/f4tRSMluPQlx6elxoqSi3Q'
-                    },
-                    {
-                        message: '每周分享09（2021年5月第3期）',
-                        url: 'https://mp.weixin.qq.com/s?__biz=MzIyNjYxNTk2MQ==&mid=2247484999&idx=1&sn=a0771f7c1ce582b08f204fd1768f7fd8&chksm=e86cf1b1df1b78a7a85aa912d04405e85331eec6308194dd22002cf93f47bc187ce5345eae53&token=1430568898&lang=zh_CN#rd'
-                    },
-
-                ]
-            },
-            {
                 message: '技术文档',
                 folders: [
                     {
