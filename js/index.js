@@ -396,7 +396,7 @@ var vue = new Vue({
                     },
                     {
                         message: '千亿像素看中国',
-                        url: 'http://pf.bigpixel.cn/'
+                        url: 'http://bigpixel.cn/'
                     },
                     {
                         message: '全历史',
